@@ -1,6 +1,6 @@
-﻿Introduction à l'analyse et à l'IA
+﻿# Introduction à l'analyse et à l'IA
 
-Qu'est-ce que l'IA ?
+## Qu'est-ce que l'IA ?
 
 ![](Aspose.Words.02f61423-d22a-4128-9fe5-b30dfcf24f0e.001.png)
 
@@ -51,7 +51,7 @@ Vous pouvez facilement explorer la puissance de l'IA vous-même. Accédez à clo
 
 Vous pouvez également tester l'API de traitement du langage naturel de Google dans votre navigateur en visitant cloud.google.com/natural-language.
 
-De l'analyse de données ad hoc aux décisions basées sur les données
+## De l'analyse de données ad hoc aux décisions basées sur les données
 
 ![](Aspose.Words.02f61423-d22a-4128-9fe5-b30dfcf24f0e.008.png)
 
@@ -83,7 +83,7 @@ La réponse consiste à utiliser un modèle ML pour faire des prédictions sur l
 
 Un modèle d'apprentissage automatique peut appliquer différents algorithmes pour obtenir des informations à une échelle beaucoup plus grande et plus rapidement que par l'intervention humaine. L'exemple présenté utilise un modèle de régression linéaire sur des tranches horaires de données de location de vélos.
 
-Options pour les modèles ML sur Google Cloud
+## Options pour les modèles ML sur Google Cloud
 
 ![](Aspose.Words.02f61423-d22a-4128-9fe5-b30dfcf24f0e.015.png)
 

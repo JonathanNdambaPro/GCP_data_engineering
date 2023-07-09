@@ -1,6 +1,6 @@
-﻿Construction de modèles personnalisés avec AutoML
+﻿# Construction de modèles personnalisés avec AutoML
 
-Pourquoi AutoML?
+## Pourquoi AutoML?
 
 ![](Aspose.Words.824b27aa-2451-4c3d-ba49-00aad9ea075f.001.png)
 
@@ -126,7 +126,7 @@ Ceci conclut la discussion sur AutoML.
 
 La stratégie d'application recommandée consiste tout d'abord à utiliser les services d'intelligence artificielle pré-construits. Ensuite, vous pouvez utiliser AutoML pour produire des modèles personnalisés qui peuvent être utilisés avec les services pré-construits ou indépendamment. N'oubliez pas que vous pouvez diviser un problème en parties spécialisées et utiliser plusieurs modèles personnalisés ensemble. Enfin, si vous découvrez que vous avez besoin de fonctionnalités plus avancées, vous pouvez utiliser les services d'apprentissage automatique et d'intelligence artificielle pour créer de nouveaux modèles.
 
-AutoML Vision
+## AutoML Vision
 
 ![](Aspose.Words.824b27aa-2451-4c3d-ba49-00aad9ea075f.014.png)
 
@@ -168,7 +168,7 @@ Cela pourrait signifier que le modèle risque de ne pas bien fonctionner au-del�
 
 cas, augmentez la variété d'images dans l'ensemble de données préparées.
 
-AutoML Natural Language
+## AutoML Natural Language
 
 ![](Aspose.Words.824b27aa-2451-4c3d-ba49-00aad9ea075f.016.png)
 
@@ -199,7 +199,7 @@ Un score de confusion élevé et des scores de précision moyenne faibles indiqu
 - Vous devrez peut-être également augmenter la variété des documents en ajoutant des exemples plus longs ou plus courts, des documents avec différents styles d'écriture ou choix de mots, ou provenant d'auteurs différents.
 - Enfin, pour les étiquettes qui ne sont pas utiles ou de qualité médiocre, vous voudrez peut-être les supprimer complètement afin d'augmenter la précision des étiquettes restantes.
 
-AutoML Tables
+## AutoML Tables
 
 ![](Aspose.Words.824b27aa-2451-4c3d-ba49-00aad9ea075f.018.png)
 

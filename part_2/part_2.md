@@ -1,6 +1,6 @@
-﻿Ingénierie des données pour les données en continu
+﻿# Ingénierie des données pour les données en continu
 
-Défis du big data.
+## Défis du big data.
 
 ![](Aspose.Words.47f526db-d742-4659-85f1-afae4572baf0.001.jpeg)
 
@@ -88,7 +88,7 @@ Des défis comme ceux-ci sont des considérations courantes pour les développeu
 
 pour vous aider à créer avec succès un pipeline de données en continu et à éviter ces défis.
 
-L'architecture orientée messages
+## L'architecture orientée messages
 
 ![](Aspose.Words.47f526db-d742-4659-85f1-afae4572baf0.010.jpeg)
 
@@ -236,7 +236,7 @@ La tâche suivante consiste à transférer ces messages de manière fiable dans 
 
 d'un pipeline qui peut correspondre à l'échelle et à l'élasticité de Pub/Sub pour le faire.
 
-Conception de pipelines de streaming avec Apache Beam
+## Conception de pipelines de streaming avec Apache Beam
 
 ![](Aspose.Words.47f526db-d742-4659-85f1-afae4572baf0.019.jpeg)
 
@@ -306,7 +306,7 @@ Les coureurs transmettent votre modèle pour une exécution sur une variété de
 
 Dataflow étant un choix populaire.
 
-Mise en œuvre de pipelines de streaming sur Cloud Dataflow.
+## Mise en œuvre de pipelines de streaming sur Cloud Dataflow.
 
 ![](Aspose.Words.47f526db-d742-4659-85f1-afae4572baf0.023.jpeg)
 
@@ -432,7 +432,7 @@ la conversion en bloc.
 
 Pour une liste complète des modèles, veuillez vous référer à la liste de lecture.
 
-Visualisation avec Looker
+## Visualisation avec Looker
 
 ![](Aspose.Words.47f526db-d742-4659-85f1-afae4572baf0.030.jpeg)
 
@@ -544,7 +544,7 @@ Slack
 
 Dropbox.
 
-Visualisation avec Data Studio
+## Visualisation avec Data Studio
 
 ![](Aspose.Words.47f526db-d742-4659-85f1-afae4572baf0.034.jpeg)
 

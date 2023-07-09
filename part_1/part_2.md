@@ -1,4 +1,4 @@
-﻿Conception de systèmes de traitement de données
+﻿# Conception de systèmes de traitement de données
 
 ![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.001.png)
 
@@ -126,7 +126,7 @@ Il y a beaucoup de détails que je ne mémoriserais pas. Par exemple, le nombre 
 
 par rapport à un autre type d'instance, avec des valeurs réelles, n'est pas quelque chose que je m'attendrais à connaître en tant qu'ingénieur des données. Je chercherais ces détails si j'en avais besoin. Cependant, le fait qu'une instance n4-standard ait un nombre d'IOPS supérieur à une instance n1-standard, ou que l'instance n4-standard coûte plus cher qu'une instance n1-standard, sont des concepts que je DOIS connaître en tant qu'ingénieur des données.
 
-Conception de représentations de données flexibles
+## Conception de représentations de données flexibles
 
 Le concept clé que nous allons explorer est de comprendre comment les données sont stockées et donc comment elles sont traitées.
 
@@ -248,7 +248,7 @@ Tensorflow est le code open source que vous utilisez pour créer des modèles d'
 
 Un tensor est une abstraction puissante car elle permet de relier différents types de données. De plus, il existe des transformations dans l'algèbre des tenseurs qui s'appliquent à n'importe quelle dimension ou rang de tenseur. Cela rend donc la résolution de certains problèmes beaucoup plus facile.
 
-Conception de pipelines de données
+## Conception de pipelines de données
 
 La prochaine section du guide d'examen porte sur la conception de pipelines de données. Vous savez déjà comment les données sont représentées. Dans Dataproc avec Spark, il s'agit de RDDs (Resilient Distributed Datasets) et dans Dataflow, il s'agit d'un PCollection. Dans BigQuery, les données sont dans un ensemble de données (Dataset) sous forme de tables.
 
@@ -356,7 +356,7 @@ Dataproc et Dataflow peuvent produire des fichiers distincts au format CSV dans 
 - Dataflow est une excellente solution ETL (Extract, Transform, Load) pour BigQuery.
 - Utilisez Dataflow pour agréger les données afin de les utiliser dans des requêtes courantes.
 
-Conception de l'infrastructure de traitement des données
+## Conception de l'infrastructure de traitement des données
 
 Maintenant que vous disposez de toutes les pièces, commençons à examiner comment les assembler pour créer une infrastructure de traitement des données.
 

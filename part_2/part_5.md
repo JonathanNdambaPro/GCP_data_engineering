@@ -1,4 +1,4 @@
-﻿Le flux de travail d'apprentissage automatique avec Vertex AI
+﻿# Le flux de travail d'apprentissage automatique avec Vertex AI
 
 ![](Aspose.Words.992004e0-b91d-430e-aefe-00e609c2d741.001.jpeg)
 
@@ -168,7 +168,7 @@ et les comportements des modèles, et Pipelines, qui vous aide à automatiser et
 
 chaîne de production ML.
 
-Préparation des données
+## Préparation des données
 
 ![](Aspose.Words.992004e0-b91d-430e-aefe-00e609c2d741.011.jpeg)
 
@@ -286,7 +286,7 @@ Et quatrièmement, les fonctionnalités sont faciles à utiliser.
 
 Feature Store est construit sur une interface utilisateur facile à naviguer.
 
-Model training
+## Model training
 
 ![](Aspose.Words.992004e0-b91d-430e-aefe-00e609c2d741.016.jpeg)
 
@@ -394,7 +394,7 @@ Ceci est en grande partie effectué par une recherche d'architecte neuronal, qui
 
 comparant les performances à des milliers d'autres modèles.
 
-Model evaluation
+## Model evaluation
 
 ![](Aspose.Words.992004e0-b91d-430e-aefe-00e609c2d741.020.jpeg)
 
@@ -540,7 +540,7 @@ la fonctionnalité complète d'apprentissage automatique de Vertex AI appelée I
 
 faites par les modèles d'apprentissage automatique.
 
-Model deployment and monitoring
+## Model deployment and monitoring
 
 ![](Aspose.Words.992004e0-b91d-430e-aefe-00e609c2d741.029.jpeg)
 

@@ -1,6 +1,6 @@
-﻿Les pipelines de production pour l'apprentissage automatique
+﻿# Les pipelines de production pour l'apprentissage automatique
 
-Méthodes pour faire du machine learning sur Google Cloud
+## Méthodes pour faire du machine learning sur Google Cloud
 
 ![](Aspose.Words.72c13ac8-4bdc-4073-815d-b8fc286c2804.001.png)
 
@@ -18,7 +18,7 @@ plus à ce sujet dans le cours "Machine Learning on Google Cloud", qui fait part
 
 parcours d'apprentissage "Machine Learning and AI" pour les Data Scientists et les Machine Learning Engineers.
 
-Vertex AI Pipelines
+## Vertex AI Pipelines
 
 Où interviennent les ingénieurs de données dans ce contexte ? N'oublions pas que les ingénieurs de données construisent des pipelines de données, et les pipelines d'apprentissage automatique ne font pas exception. Si nous voulons avoir un pipeline flexible pour toutes les étapes de l'apprentissage automatique, les pipelines Vertex AI sont une excellente option.
 
@@ -69,7 +69,7 @@ Pour résumer, les pipelines gérés dans le contexte de GCP :
 1. Sont sécurisés.
 1. Sont très rentables car les ressources sont allouées selon un processus par étape de pipeline.
 
-AI Hub
+## AI Hub
 
 ![](Aspose.Words.72c13ac8-4bdc-4073-815d-b8fc286c2804.009.png)
 

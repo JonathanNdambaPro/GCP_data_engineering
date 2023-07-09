@@ -1,6 +1,6 @@
-﻿Fonctionnalités de diffusion à haut débit pour BigQuery et Bigtable sur GCP
+﻿# Fonctionnalités de diffusion à haut débit pour BigQuery et Bigtable sur GCP
 
-Transmettre en continu vers BigQuery et visualiser les résultats.
+## Transmettre en continu vers BigQuery et visualiser les résultats.
 
 ![](Aspose.Words.be7fe248-aabb-40bd-b9d7-e89fc1f4eeb9.001.png)
 
@@ -93,7 +93,7 @@ avoir à créer vos propres cubes. BI Engine est construit sur la même architec
 
 [Lab : Traitement de données en continu, analyse en continu et tableaux de bord](https://www.cloudskillsboost.google/course_sessions/3849359/labs/345023)
 
-Flux haute performance avec Cloud Bigtable
+## Flux haute performance avec Cloud Bigtable
 
 Jusqu'à présent, nous avons examiné comment effectuer des requêtes sur des données, même si elles sont en streaming, à l'aide de BigQuery, et comment afficher les données à l'aide de Data Studio. BigQuery est une solution très performante, adaptée à la plupart des cas. Cependant, il peut arriver que la latence de BigQuery pose problème.
 
@@ -247,7 +247,7 @@ En 2019, Spotify a exécuté le plus grand travail de Dataflow à ce jour sur GC
 
 [https://techcrunch.com/2020/02/18/how-spotify-ran-the-largest-google-dataflow-job-ever-for- wrapped-2019/](https://techcrunch.com/2020/02/18/how-spotify-ran-the-largest-google-dataflow-job-ever-for-wrapped-2019/)
 
-Optimisation des performances de Cloud Bigtable
+## Optimisation des performances de Cloud Bigtable
 
 ![](Aspose.Words.be7fe248-aabb-40bd-b9d7-e89fc1f4eeb9.033.png)
 

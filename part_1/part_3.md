@@ -1,6 +1,6 @@
-﻿Construction et opérationnalisation de systèmes de traitement des données
+﻿# Construction et opérationnalisation de systèmes de traitement des données
 
-Construction et Maintenance de Structures de Données et Bases de Données
+## Construction et Maintenance de Structures de Données et Bases de Données
 
 Le premier domaine de traitement des données que nous examinerons concerne la création et la maintenance de structures et de bases de données.
 
@@ -68,7 +68,7 @@ Datastore est une solution NoSQL qui était auparavant réservée à App Engine.
 
 Mémorisez cette table et soyez capable de l'utiliser à l'envers. Exemple : si la question de l'examen mentionne "Entrepôt de données", vous devriez penser "BigQuery est un candidat". Si le cas évoque quelque chose à propos de gros fichiers média, vous devriez immédiatement penser à Cloud Storage.
 
-Construire et opérationnaliser des pipelines
+## Construire et opérationnaliser des pipelines
 
 ![](Aspose.Words.e79873e8-3438-4e0d-ab81-7a553aabca8b.012.png)
 
@@ -106,7 +106,7 @@ Connaissez-vous les méthodes de fenêtrage de base, y compris la fenêtre tempo
 
 N'oubliez pas d'étudier les entrées annexes (side-inputs). Si vous comprenez les entrées annexes, vous comprendrez nécessairement de nombreux concepts dépendants qui font partie de Dataflow.
 
-Construction et opérationnalisation de l'infrastructure de traitement dans le contexte de GCP.
+## Construction et opérationnalisation de l'infrastructure de traitement dans le contexte de GCP.
 
 ![](Aspose.Words.e79873e8-3438-4e0d-ab81-7a553aabca8b.017.png)
 

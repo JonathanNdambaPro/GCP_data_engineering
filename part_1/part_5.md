@@ -1,8 +1,6 @@
-﻿Sécurité, Politique et Fiabilité
+﻿# Sécurité, Politique et Fiabilité
 
-Conception pour la sécurité et la conformité
-
-Conception pour la sécurité et la conformité.
+## Conception pour la sécurité et la conformité
 
 La sécurité est un terme large. Elle englobe la confidentialité, l'authentification, l'autorisation, la gestion des identités et des accès. Elle peut inclure la détection d'intrusions, la mitigation des attaques, la résilience et la récupération. Ainsi, la sécurité se retrouve réellement dans l'ensemble des technologies, et pas uniquement à un seul endroit.
 
@@ -54,7 +52,7 @@ Grâce au support généralisé des comptes de service, vous pouvez "verrouiller
 
 Lorsque vous êtes confronté à une question de sécurité lors d'un examen (ou dans la pratique), déterminez les technologies/services spécifiques dont il est question (authentification, chiffrement), par exemple. Ensuite, déterminez exactement quels sont les objectifs pour une sécurité suffisante. S'agit-il de dissuasion ? S'agit-il de respecter une norme de conformité ? L'objectif est-il d'éliminer un risque ou une vulnérabilité particulière ? Cela vous aidera à définir la portée d'une solution, que ce soit lors d'un examen ou dans une application.
 
-Effectuer un contrôle qualité
+## Effectuer un contrôle qualité
 
 ![](Aspose.Words.deb3f7c9-4b41-4ecc-8a36-2843102a6613.006.png)
 
@@ -100,7 +98,7 @@ La formation aborde bien les mécanismes de génération et de rapports. Cependa
 
 Ce sujet fait partie du programme d'examen. Il s'agit d'une compétence professionnelle générale plutôt que d'une compétence technique et n'est pas spécifiquement abordé dans la formation technique de Google. Néanmoins, il fait partie du travail et peut être inclus dans l'examen. Je vous suggère donc de vous assurer de le connaître, même s'il ne figure pas dans notre formation.
 
-Garantir la fiabilité
+## Garantir la fiabilité
 
 Fiable signifie que le service produit des résultats cohérents et fonctionne comme prévu. Si nous devions le quantifier, ce serait une mesure de la durée pendant laquelle le service effectue sa fonction prévue.
 

@@ -1,8 +1,8 @@
-﻿Exécuter Spark sur Dataproc
+﻿# Exécuter Spark sur Dataproc
 
 Dans ce module, nous aborderons Dataproc, le service Hadoop géré par Google Cloud, et plus particulièrement Apache Spark.
 
-L’Écosystème Hadoop
+## L’Écosystème Hadoop
 
 ![](Aspose.Words.71968ec4-cb76-4c34-b13b-d7e85bbcac39.001.png)
 
@@ -42,19 +42,19 @@ Les clusters Hadoop sur site, en raison de leur nature physique, souffrent de li
 
 Il existe de nombreuses façons d'utiliser Google Cloud Platform (GCP) pour gagner du temps, de l'argent et des efforts par rapport à l'utilisation d'une solution Hadoop sur site. Dans de nombreux cas, adopter une approche basée sur le cloud peut rendre votre solution globale plus simple et facile à gérer.
 
-Prise en charge intégrée de Hadoop
+### Prise en charge intégrée de Hadoop
 
 Dataproc est un environnement Hadoop et Spark géré. Vous pouvez utiliser Dataproc pour exécuter la plupart de vos tâches existantes avec un minimum de modifications, vous n'avez donc pas besoin de renoncer à tous les outils Hadoop que vous connaissez déjà.
 
-Gestion du matériel et de la configuration gérée
+### Gestion du matériel et de la configuration gérée
 
 Lorsque vous exécutez Hadoop sur Google Cloud, vous n'avez jamais à vous soucier du matériel physique. Vous spécifiez la configuration de votre cluster et Dataproc alloue les ressources pour vous. Vous pouvez faire évoluer votre cluster à tout moment.
 
-Gestion simplifiée des versions
+### Gestion simplifiée des versions
 
 Maintenir à jour et faire fonctionner ensemble des outils open source est l'une des parties les plus complexes de la gestion d'un cluster Hadoop. Lorsque vous utilisez Dataproc, une grande partie de ce travail est gérée pour vous grâce à la gestion des versions de Dataproc.
 
-Configuration flexible des tâches
+### Configuration flexible des tâches
 
 Une configuration Hadoop classique sur site utilise un seul cluster qui sert à de nombreuses tâches. Lorsque vous passez à Google Cloud, vous pouvez vous concentrer sur des tâches individuelles, en créant autant de clusters que nécessaire. Cela élimine une grande partie de la complexité liée à la maintenance d'un seul cluster avec des dépendances croissantes et des interactions de configuration logicielle.
 
@@ -66,7 +66,7 @@ Spark utilise un modèle de programmation déclaratif. En programmation impérat
 
 Il existe une implémentation SQL complète sur Spark. Il existe un modèle commun de DataFrame qui fonctionne avec Scala, Java, Python, SQL et R. De plus, il existe une bibliothèque d'apprentissage automatique distribuée appelée Spark ML-Lib.
 
-Exécuter Hadoop sur Dataproc
+## Exécuter Hadoop sur Dataproc
 
 ![](Aspose.Words.71968ec4-cb76-4c34-b13b-d7e85bbcac39.007.png)
 
@@ -186,7 +186,7 @@ N'utilisez pas les interfaces directes de Hadoop pour soumettre des emplois car 
 
 Enfin, une fois que vous avez soumis votre tâche, vous souhaiterez la surveiller. Vous pouvez le faire en utilisant Cloud Monitoring. Vous pouvez également créer un tableau de bord personnalisé avec des graphiques et configurer la surveillance des politiques d'alerte pour envoyer des e-mails, par exemple, afin de pouvoir être informé en cas d'incident. Tous les détails provenant de HDFS, YARN, des métriques sur une tâche particulière ou des métriques globales pour le cluster, tels que l'utilisation du CPU, du disque et du réseau, peuvent tous être surveillés et signalés avec Cloud Monitoring.
 
-Cloud Storage Au lieu de HDFS
+## Cloud Storage Au lieu de HDFS
 
 ![](Aspose.Words.71968ec4-cb76-4c34-b13b-d7e85bbcac39.017.png)
 
@@ -264,7 +264,7 @@ DistCp est un outil essentiel pour le déplacement de données. En général, vo
 
 <https://hadoop.apache.org/docs/current/hadoop-distcp/DistCp.html>
 
-Optimisation de Dataproc
+## Optimisation de Dataproc
 
 ![](Aspose.Words.71968ec4-cb76-4c34-b13b-d7e85bbcac39.028.png)
 

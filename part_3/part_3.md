@@ -1,8 +1,8 @@
-﻿Création d'un Data Warehouse
+﻿# Création d'un Data Warehouse
 
 Nous commencerons par décrire ce qui constitue un entrepôt de données moderne. Nous parlerons également de ce qui distingue un lac de données d'un entrepôt de données d'entreprise. Ensuite, nous allons vous présenter BigQuery, une solution d'entrepôt de données sur Google Cloud. Une fois que vous serez familiarisé avec les bases de BigQuery, nous parlerons de la façon dont BigQuery organise vos données, ... et ensuite comment charger de nouvelles données dans BigQuery. Vous aurez également l'occasion de charger des données dans BigQuery grâce à un laboratoire pratique. Enfin, nous plongerons dans le monde des schémas d'entrepôt de données. Nous parlerons de la conception efficace des schémas d'entrepôt de données, ... et nous examinerons de plus près le support de BigQuery pour les champs imbriqués et répétés, et pourquoi ce type de conception de schéma est si populaire pour les entreprises. Vous aurez l'occasion de travailler avec des données JSON et ARRAY dans BigQuery grâce à un laboratoire pratique. Nous conclurons en discutant de la façon dont vous pouvez optimiser les tables de votre entrepôt de données avec le partitionnement et le regroupement.
 
-Le Data Warehouse Moderne
+## Le Data Warehouse Moderne
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.001.png)
 
@@ -32,7 +32,7 @@ Qu'est-ce qui rend un entrepôt de données moderne ?
 - De plus, l'analyse prédictive devient de plus en plus importante pour les analystes de données. Par conséquent, un entrepôt de données moderne doit prendre en charge l'apprentissage automatique sans déplacer les données hors de l'entrepôt.
 - Enfin, dans un entrepôt de données moderne, il devrait être possible d'imposer des mesures de sécurité de qualité entreprise telles que des contraintes d'exfiltration de données. Il devrait également être possible de partager des données et des requêtes avec des collaborateurs.
 
-Introduction à BigQuery
+## Introduction à BigQuery
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.003.png)
 
@@ -96,7 +96,7 @@ Si une seule requête simple est soumise et nécessite moins de slots que ceux d
 
 Si vous avez réservé 10 000 slots, mais que vous avez 30 requêtes simultanées qui demandent ensemble 15 000 slots, les requêtes n'obtiendront pas tous les slots nécessaires. Au lieu de cela, les slots sont répartis équitablement entre tous les projets de la réservation et toutes les requêtes du projet. Cela se traduira généralement par une exécution plus lente de chaque requête.
 
-Commencez avec BigQuery
+## Commencez avec BigQuery
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.013.png)
 
@@ -130,19 +130,19 @@ Chaque table possède un schéma. Vous pouvez entrer le schéma manuellement via
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.019.png)
 
-Gestion des clés
+### Gestion des clés
 
 Comme pour Cloud Storage, le stockage de BigQuery chiffre les données au repos et sur le réseau à l'aide de clés de chiffrement gérées par Google. Il est également possible d'utiliser des clés de chiffrement gérées par le client.
 
-Authentification
+### Authentification
 
 L'authentification se fait via IAM, il est donc possible d'utiliser des adresses Gmail ou des comptes Google Workspace pour cette tâche.
 
-Contrôle d'accès
+### Contrôle d'accès
 
 Le contrôle d'accès se fait via les rôles IAM et implique l'octroi de permissions. Nous avons discuté de deux d'entre elles : l'accès en lecture et la possibilité de soumettre des tâches de requête. Cependant, de nombreuses autres permissions sont possibles. Rappelez-vous que le contrôle d'accès s'applique au niveau des jeux de données, des tables, des vues ou des colonnes. Lorsque vous accordez l'accès à un jeu de données, en lecture ou en écriture, vous accordez l'accès à toutes les tables de ce jeu de données.
 
-Cloud Audit Logs
+### Cloud Audit Logs
 
 Les journaux dans BigQuery sont immuables et peuvent être exportés vers Cloud Operations. Toutes les activités administratives et les événements système sont enregistrés. Un exemple d'événement système est l'expiration d'une table. Si, lors de la création d'une table, vous la configurez pour expirer dans 30 jours, à la fin de ces 30 jours, un événement système sera généré et enregistré. Vous obtiendrez également des journaux immuables de chaque accès qui se produit dans un jeu de données sous votre projet.
 
@@ -236,7 +236,7 @@ En résumé, le coût d'une requête est toujours attribué au projet actif à p
 
 NOTE : BigQuery offre 1 To de requêtes gratuites chaque mois, donc les ensembles de données publics sont un moyen facile d'essayer BigQuery.
 
-Charger des données dans BigQuery
+## Charger des données dans BigQuery
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.030.png)
 
@@ -350,7 +350,7 @@ Lorsque vous créez une UDF (User Defined Function) dans GCP (Google Cloud Platf
 
 [Lab : Chargement de données dans BigQuery](https://www.cloudskillsboost.google/course_sessions/3754403/labs/382275)
 
-Découvrez les schémas
+## Découvrez les schémas
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.047.png)
 
@@ -358,7 +358,8 @@ Concevoir des schémas efficaces et évolutifs est une responsabilité essentiel
 
 <https://cloud.google.com/bigquery/public-data/>
 
-Conception de schéma
+## Conception de schéma
+
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.048.png)
 
@@ -408,7 +409,9 @@ Les champs imbriqués et répétés aident BigQuery à travailler avec des donn�
 
 Recherchez des champs imbriqués et répétés chaque fois que BigQuery est utilisé dans une solution hybride en association avec des bases de données traditionnelles.
 
-Les champs imbriqués et répétés
+## Les champs imbriqués et répétés
+
+
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.052.png)
 
@@ -464,7 +467,7 @@ Récapitulons quelques façons de concevoir le schéma des tables pour améliore
 
 [Lab : Travailler avec des données JSON et des tableaux dans BigQuery](https://www.cloudskillsboost.google/course_sessions/3754403/labs/382283)
 
-Optimisez avec la Partitioning et le Clustering.
+## Optimisez avec la Partitioning et le Clustering.
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.061.png)
 

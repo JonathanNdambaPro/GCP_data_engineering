@@ -1,6 +1,6 @@
-﻿Opérationnalisation des modèles d'apprentissage automatique
+﻿# Opérationnalisation des modèles d'apprentissage automatique
 
-Analyse des données et Activation de l'apprentissage automatique
+## Analyse des données et Activation de l'apprentissage automatique
 
 Dans la première section, nous examinerons l'analyse des données et la mise en place de l'apprentissage automatique. La manière dont ces deux éléments sont liés est que de nombreuses entreprises commencent par analyser les données. Après avoir tiré profit de cette analyse, elles commencent à creuser davantage et se rendent souvent compte qu'elles disposent de données non structurées pouvant fournir des informations commerciales. Cela les amène donc à vouloir mettre en place l'apprentissage automatique. Il s'agit donc d'une évolution naturelle.
 
@@ -30,7 +30,7 @@ La façon dont TensorFlow fonctionne est que vous créez un graphe dirigé pour 
 
 - des choses comme l'addition, la soustraction et la multiplication, ainsi que des fonctions plus complexes. L'entraînement et l'évaluation des réseaux neuronaux peuvent être représentés sous forme de graphes de flux de données. La représentation des données tensorielles est transmise de nœud en nœud où elle est traitée. Cela est analogue au flux de données et à un pipeline, mais l'entrée et la sortie sont des opérations mathématiques. TensorFlow a été développé chez Google et est portable sur les GPU, les CPU et un matériel spécial appelé TPU, qui signifie TensorFlow Processing Units.
 
-Déploiement d'un Pipeline ML
+## Déploiement d'un Pipeline ML
 
 Si vous êtes un Data Analyst, vous pourriez utiliser SQL pour analyser des données. C'est un domaine spécifique dans lequel BigQuery excelle.
 
@@ -81,7 +81,7 @@ Voici le modèle pour développer vos propres modèles d'apprentissage automatiq
 
 Ensuite, suivez ces étapes. Utilisez TensorFlow pour créer l'application d'entraînement. Emballez-la. Ensuite, configurez et lancez une tâche Vertex AI.
 
-Apprentissage automatique Revue de terminologie
+## Apprentissage automatique Revue de terminologie
 
 ![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.009.png)
 
@@ -182,7 +182,7 @@ Si quelqu'un prétendait avoir un modèle d'apprentissage automatique qui reconn
 
 Lisez ces diapositives à l'envers. Si la question dit "les données sont rares"... alors vous devriez penser que "données de test indépendantes" ou "validation croisée" sont des réponses possibles. Familiarisez-vous avec les différentes méthodes de validation croisée, y compris l'entraînement, la validation et les tests, ainsi que la validation croisée.
 
-Modélisation des processus métier pour l'analyse et l'optimisation
+## Modélisation des processus métier pour l'analyse et l'optimisation
 
 Modélisation des processus métier pour l'analyse et l'optimisation.
 

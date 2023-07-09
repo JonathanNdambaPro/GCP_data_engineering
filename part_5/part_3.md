@@ -1,6 +1,6 @@
-﻿Les fonctionnalités de streaming de Dataflow
+﻿# Les fonctionnalités de streaming de Dataflow
 
-Défis liés aux données en streaming
+## Défis liés aux données en streaming
 
 ![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.001.png)
 
@@ -45,7 +45,7 @@ Voici le code utilisé pour modifier le timestamp de la date en remplaçant le t
 
 Si PubsubIO est configuré pour utiliser des ID de message personnalisés, Dataflow déduplique les messages en maintenant une liste de tous les ID personnalisés qu'il a rencontrés au cours des 10 dernières minutes. Si l'ID d'un nouveau message se trouve dans cette liste, le message est considéré comme un doublon et est rejeté.
 
-Fenêtrage dans Dataflow
+## Fenêtrage dans Dataflow
 
 ![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.010.png)
 

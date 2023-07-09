@@ -1,6 +1,6 @@
-﻿APIs de modèles d'apprentissage automatique préconstruits pour les données non structurées
+﻿# APIs de modèles d'apprentissage automatique préconstruits pour les données non structurées
 
-Les données non structurées sont difficiles
+## Les données non structurées sont difficiles
 
 ![](Aspose.Words.da23e318-859f-4c72-91fa-57fbf4443580.001.png)
 
@@ -46,7 +46,7 @@ Les images médicales sont propices à l'innovation. Par exemple, il est possibl
 
 Ces produits, tels que Vision API et Dialogflow, sont basés à la fois sur les données et les modèles de Google. Vous n'avez pas à vous soucier de former des modèles avec vos propres données. Il vous suffit de transmettre vos données aux produits via une API, et ils vous renverront des prédictions. Il est vraiment difficile de former des modèles sur des données non structurées. Par conséquent, développer quelque chose comme un modèle de reconnaissance visuelle est hors de portée pour la plupart des organisations. Le principal inconvénient est que si vos données non structurées ne font pas partie de l'étendue des données utilisées pour former les modèles pré-entraînés de Google, les API ne vous donneront pas de bons résultats.
 
-APIs ML pour enrichir les données
+## APIs ML pour enrichir les données
 
 ![](Aspose.Words.da23e318-859f-4c72-91fa-57fbf4443580.007.png)
 

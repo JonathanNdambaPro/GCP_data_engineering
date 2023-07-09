@@ -1,4 +1,4 @@
-﻿Construction de modèles personnalisés avec SQL dans BigQuery ML
+﻿# Construction de modèles personnalisés avec SQL dans BigQuery ML
 
 ![](Aspose.Words.7ed1f3e1-9f26-473e-b8ba-995fcb6110ac.001.png)
 
@@ -55,7 +55,7 @@ Si le modèle répond à vos besoins, super ! Vous êtes prêt à effectuer des 
 
 Vous n'avez pas besoin de vous soucier du déploiement de votre modèle dans un processus distinct. Il est automatiquement disponible pour effectuer des prédictions dans BigQuery. Voici un exemple d'exécution de prédictions en mode batch à l'aide de BigQuery ML. Le premier exemple présenté ici a "gouvernement, arrêt, laisse, travailleurs et désemparés" comme les cinq premiers mots du titre. La prédiction du modèle dans ce cas est "The New York Times".
 
-Modèles pris en charge
+## Modèles pris en charge
 
 Avant de commencer votre premier laboratoire en utilisant BigQuery ML, je vais vous donner un bref aperçu des différents types de modèles actuellement pris en charge. Pour la tâche de prédiction d'articles dans la leçon précédente, rappelez-vous que vous avez utilisé un modèle de régression logistique. Il existe d'autres modèles qui auraient pu être utilisés. Examinons les options de modèles disponibles dans BigQuery ML pour classer les choses.
 

@@ -1,4 +1,4 @@
-﻿Serverless Messaging avec Pub/Sub
+﻿# Serverless Messaging avec Pub/Sub
 
 Introduction à Pub/Sub, Alors que nous commençons ce module, je vous demanderais de garder l'esprit ouvert à de nouvelles façons de
 
@@ -74,7 +74,7 @@ Vous pouvez créer un abonnement avec un filtre en utilisant la Console Cloud, l
 
 Vous avez appris en général ce que fait Pub/Sub. Ensuite, vous apprendrez comment cela fonctionne et de nombreuses fonctionnalités avancées qu'il offre.
 
-Pub/Sub Push versus Pull
+## Pub/Sub Push versus Pull
 
 ![](Aspose.Words.faac24b9-2ef7-44fa-8bcc-5c53c0f9a1d5.009.png)
 
@@ -130,7 +130,7 @@ Les abonnés peuvent travailler individuellement ou en groupe. Si nous n'avons q
 
 Dans le cas d'un abonnement Push, vous n'avez qu'un seul point de terminaison web, vous aurez donc généralement qu'un seul abonné. Cependant, cet abonné peut être une application App Engine standard ou une image de conteneur Cloud Run qui s'adapte automatiquement. Ainsi, il s'agit d'un seul point de terminaison web, mais il peut avoir des travailleurs qui s'adaptent automatiquement en arrière-plan. Et c'est en réalité un très bon modèle.
 
-La publication avec le code Pub/Sub
+## La publication avec le code Pub/Sub
 
 ![](Aspose.Words.faac24b9-2ef7-44fa-8bcc-5c53c0f9a1d5.017.png)
 

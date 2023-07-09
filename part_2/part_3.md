@@ -1,6 +1,6 @@
-﻿Big Data avec BigQuery
+﻿# Big Data avec BigQuery
 
-Introduction
+## Introduction
 
 ![](Aspose.Words.f3f53c35-32e0-4493-b27b-2a9093798f82.001.jpeg)
 
@@ -138,7 +138,7 @@ Lorsque vos données sont là, les analystes commerciaux, les développeurs BI, 
 
 les ingénieurs en apprentissage automatique peuvent avoir accès à vos données pour leurs propres informations.
 
-Stockage et analyse
+## Stockage et analyse
 
 ![](Aspose.Words.f3f53c35-32e0-4493-b27b-2a9093798f82.004.jpeg)
 
@@ -256,7 +256,7 @@ Ensuite, vous verrez une démonstration dans BigQuery.
 
 Veuillez noter que vous remarquerez peut-être une interface utilisateur légèrement différente.
 
-Introduction à BigQuery ML
+## Introduction à BigQuery ML
 
 ![](Aspose.Words.f3f53c35-32e0-4493-b27b-2a9093798f82.012.jpeg)
 

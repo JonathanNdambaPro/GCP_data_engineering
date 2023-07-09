@@ -1,4 +1,4 @@
-﻿Options d'apprentissage automatique sur Google Cloud
+﻿## Options d'apprentissage automatique sur Google Cloud
 
 ![](Aspose.Words.76953935-04ea-4afb-af4b-384b25e66f6b.001.jpeg)
 
@@ -74,7 +74,7 @@ pourraient vous aider à résoudre ?
 
 Prenez un moment pour réfléchir à cette question avant de passer à la vidéo suivante.
 
-Options pour construire des modèles d'apprentissage automatique.
+## Options pour construire des modèles d'apprentissage automatique.
 
 ![](Aspose.Words.76953935-04ea-4afb-af4b-384b25e66f6b.004.jpeg)
 
@@ -172,7 +172,7 @@ Nous avons déjà exploré BigQuery ML, donc dans les vidéos qui suivent, nous 
 
 trois autres options plus en détail.
 
-API pré-construites
+## API pré-construites
 
 ![](Aspose.Words.76953935-04ea-4afb-af4b-384b25e66f6b.007.jpeg)
 
@@ -226,7 +226,7 @@ est disponible pour le former. Comme vous vous en doutez, Google dispose de nomb
 
 prédéfinis . Cela signifie moins de travail pour vous. Prenons une minute et essayons l'API Vision dans un navigateur. (Fournissez une image.) Commencez par accéder à cloud.google.com/vision dans Chrome, puis faites défiler vers le bas pour essayer l'API en téléchargeant une image. Vous pouvez en fait expérimenter chacune des API ML dans un navigateur. Lorsque vous êtes prêt à créer un modèle de production, vous devez transmettre une demande d'objet JSON à l'API et analyser ce qu'elle renvoie.
 
-AutoML
+## AutoML
 
 ![](Aspose.Words.76953935-04ea-4afb-af4b-384b25e66f6b.010.jpeg)
 
@@ -442,7 +442,7 @@ différents objectifs pour résoudre un problème métier.
 
 AutoML est un outil puissant qui peut vous aider à atteindre ces différents types de données et objectifs.
 
-Custom training
+## Custom training
 
 ![](Aspose.Words.76953935-04ea-4afb-af4b-384b25e66f6b.020.jpeg)
 
@@ -490,7 +490,7 @@ ou ustensiles de cuisine.
 
 Vous définissez les outils exacts dont vous avez besoin pour terminer le travail.
 
-Vertex AI
+## Vertex AI
 
 ![](Aspose.Words.76953935-04ea-4afb-af4b-384b25e66f6b.022.jpeg)
 
@@ -606,7 +606,7 @@ Et c'est rapide.
 
 Vertex AI produit des modèles qui ont 80 % moins de lignes de code que les concurrents.
 
-Solutions IA
+## Solutions IA
 
 ![](Aspose.Words.76953935-04ea-4afb-af4b-384b25e66f6b.029.jpeg)
 

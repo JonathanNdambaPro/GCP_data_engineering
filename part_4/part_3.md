@@ -1,4 +1,4 @@
-﻿Traitement de données en serverless avec Dataflow
+﻿# Traitement de données en serverless avec Dataflow
 
 Ce module complet traitera des pipelines de données en batch avec Dataflow et expliquera pourquoi Dataflow est un outil de pipeline de données couramment utilisé sur Google Cloud. Sans trop dévoiler la réponse, sachez que vous pouvez écrire le même code pour créer à la fois des pipelines en batch et en continu avec Dataflow. Nous aborderons les pipelines en continu plus tard.
 
@@ -61,7 +61,7 @@ Chaque élément à l'intérieur d'une PCollection peut être individuellement a
 
 Une fois qu'un élément est créé dans une PCollection, il est immuable. Il ne peut donc jamais être modifié ou supprimé. Les éléments représentent différents types de données. Dans les programmes traditionnels, un type de données est stocké en mémoire avec un format qui favorise le traitement. Les entiers en mémoire sont différents des caractères, qui sont différents des chaînes de caractères et des types de données composés. Dans une PCollection, tous les types de données sont stockés sous forme d'état sérialisé en tant que chaînes de caractères binaires. Ainsi, il n'est pas nécessaire de sérialiser les données avant leur transfert sur le réseau et de les désérialiser lorsqu'elles sont reçues. Au lieu de cela, les données se déplacent à travers le système sous forme sérialisée et ne sont désérialisées que lorsque cela est nécessaire pour les actions d'une PTransform.
 
-Pourquoi les clients apprécient Dataflow
+## Pourquoi les clients apprécient Dataflow
 
 ![](Aspose.Words.fd289511-773e-48d8-a454-46446f297eda.009.png)
 
@@ -115,7 +115,7 @@ Google Cloud. Avez-vous besoin de lire depuis BigQuery et d'écrire dans Bigtabl
 
 Avez-vous besoin de lire depuis Pub/Sub et d'écrire dans Cloud SQL ? Utilisez Dataflow.
 
-Pipelines Dataflow
+## Pipelines Dataflow
 
 ![](Aspose.Words.fd289511-773e-48d8-a454-46446f297eda.015.png)
 
@@ -226,7 +226,7 @@ Voici un exemple en Python qui peut renvoyer plusieurs variables. Dans cet exemp
 
 [Lab Analyse de données sans serveur avec Flux de données : un flux de données simple pipeline (Python)](https://www.cloudskillsboost.google/course_sessions/3764053/labs/379242)
 
-Agréger avec GroupByKey et Combine
+## Agréger avec GroupByKey et Combine
 
 ![](Aspose.Words.fd289511-773e-48d8-a454-46446f297eda.028.png)
 
@@ -284,7 +284,7 @@ La fonction Partition divise une seule PCollection en un nombre fixe de collecti
 
 [Lab : Analyse de données sans serveur avec Beam](https://www.cloudskillsboost.google/course_sessions/3764053/labs/379246)
 
-Side Inputs et Windows
+## Side Inputs et Windows
 
 ![](Aspose.Words.fd289511-773e-48d8-a454-46446f297eda.036.png)
 
@@ -330,7 +330,7 @@ Par exemple, supposons que vous ayez tous vos enregistrements de ventes et que v
 
 [Lab : Analyse de données sans serveur avec DataFlow](https://www.cloudskillsboost.google/course_sessions/3764053/labs/379250)
 
-Dataflow Templates
+## Dataflow Templates
 
 ![](Aspose.Words.fd289511-773e-48d8-a454-46446f297eda.042.png)
 

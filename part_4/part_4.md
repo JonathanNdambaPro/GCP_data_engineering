@@ -1,6 +1,6 @@
-﻿Gérer les pipelines de données avec Cloud Data Fusion et Cloud Composer
+﻿# Gérer les pipelines de données avec Cloud Data Fusion et Cloud Composer
 
-Créer visuellement des pipelines de données par lots avec Cloud Data Fusion
+## Créer visuellement des pipelines de données par lots avec Cloud Data Fusion
 
 ![](Aspose.Words.0efdaf06-10aa-4981-92e1-1568730c0497.001.png)
 
@@ -159,7 +159,7 @@ Lorsque vous êtes satisfait de vos transformations, vous pouvez créer un pipel
 
 [Lab : Construire et exécuter un pipeline graphique dans Cloud Data Fusion](https://www.cloudskillsboost.google/course_sessions/3764053/labs/379262)
 
-Orchestrer le travail entre les services Google Cloud avec Cloud Composer
+## Orchestrer le travail entre les services Google Cloud avec Cloud Composer
 
 La prochaine grande tâche pour la gestion des pipelines de données est d'orchestrer le travail à travers plusieurs services de Google Cloud. Par exemple, si vous disposez de trois pipelines Cloud Data Fusion et de deux modèles d'apprentissage automatique que vous souhaitez exécuter dans un certain ordre, vous avez besoin d'un moteur d'orchestration. Dans ce module, nous examinerons l'utilisation de Cloud Composer pour vous aider dans des tâches de ce genre.
 

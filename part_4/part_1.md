@@ -1,6 +1,6 @@
-﻿Introduction à la création de pipelines de données par lots
+﻿# Introduction à la création de pipelines de données par lots
 
-EL, ELT, ETL
+## EL, ELT, ETL
 
 ![](Aspose.Words.f139ae72-8cf8-4a58-b8dd-ecc56355c941.001.png)
 
@@ -38,7 +38,7 @@ pourrait-il avoir besoin à l'avenir ? Vous ne le savez pas. Vous stockez donc l
 
 Bien sûr, cela ne fonctionne que si la transformation nécessaire peut être exprimée en SQL. Dans le cas de l'API Vision, le résultat est du JSON, et BigQuery SQL prend en charge l'analyse JSON. Ainsi, l'E-L-T fonctionnera dans ce cas.
 
-Considérations Qualité
+## Considérations Qualité
 
 Maintenant que nous avons examiné EL et ELT, examinons quelques-unes des transformations que vous pourriez vouloir effectuer et comment elles peuvent être réalisées dans BigQuery.
 
@@ -76,7 +76,7 @@ Mais une solution plus simple existe, qui consiste à compter les enregistrement
 
 De même, un problème tel que des données hors de la plage peut être résolu dans BigQuery sans étape de transformation intermédiaire. Les données non valides peuvent être filtrées à l'aide d'une vue BigQuery, et tout le monde peut accéder à la vue plutôt qu'aux données brutes.
 
-Comment réaliser Opérations en BigQuery
+## Comment réaliser Opérations en BigQuery
 
 Dans cette leçon, nous examinerons divers problèmes de qualité et parlerons de certaines fonctionnalités de BigQuery qui peuvent vous aider à résoudre ces problèmes de qualité.
 
@@ -120,7 +120,7 @@ Utilisez la fonction SQL CAST pour éviter les problèmes liés aux changements 
 
 J'espère que ce que vous retenez, c'est que le SQL de BigQuery est très puissant et que vous pouvez en tirer parti.
 
-Limitations
+## Limitations
 
 Dans la leçon précédente, nous vous avons montré quelques-unes des façons dont vous pouvez utiliser SQL dans un pipeline E-L-T pour vous protéger contre les problèmes de qualité. Le point est que vous n'avez pas toujours besoin d'E-T-L. E-L-T pourrait être une option même si vous avez besoin de transformation. Cependant, il existe des situations où E-L-T ne sera pas suffisant. Dans ce cas, E-T-L pourrait être ce que vous devez faire. Quels sont les types de situations où cela est approprié ?
 
@@ -150,7 +150,7 @@ Dataflow est un service de traitement de données entièrement géré et sans se
 
 Vous pouvez utiliser l'un de ces trois produits pour effectuer des transformations de données, puis stocker les données dans un data lake ou un entrepôt de données pour prendre en charge les analyses avancées.
 
-ETL pour résoudre des données Problèmes de qualité
+## ETL pour résoudre des données Problèmes de qualité
 
 ![](Aspose.Words.f139ae72-8cf8-4a58-b8dd-ecc56355c941.014.png)
 

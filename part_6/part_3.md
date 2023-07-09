@@ -1,6 +1,6 @@
-﻿Analyse des Big Data avec des notebooks
+﻿# Analyse des Big Data avec des notebooks
 
-Qu’est-ce qu’un Notebook?
+## Qu’est-ce qu’un Notebook?
 
 ![](Aspose.Words.658a9cc3-ad85-4237-9def-ed668be6d357.001.png)
 
@@ -58,7 +58,7 @@ Comme mentionné précédemment, les Notebooks exécutent la dernière version d
 
 Les Notebooks offrent également des connecteurs vers et depuis BigQuery, vous permettant d'importer facilement des données dans votre Notebook.
 
-BigQuery Magics et Liens avec Pandas
+## BigQuery Magics et Liens avec Pandas
 
 ![](Aspose.Words.658a9cc3-ad85-4237-9def-ed668be6d357.010.png)
 

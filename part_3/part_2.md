@@ -1,8 +1,8 @@
-﻿Construction d'un datalake
+﻿# Construction d'un datalake
 
 Nous commencerons par revoir ce qu'est un data lake, et discuterons des options de stockage de données ainsi que des options d'extraction, de transformation et de chargement de vos données dans Google Cloud. Ensuite, nous approfondirons pourquoi Google Cloud Storage est un choix populaire pour servir de Data Lake. La sécurisation de votre data lake fonctionnant sur le stockage cloud est d'une importance capitale. Nous discuterons des principales fonctionnalités de sécurité que vous devez connaître en tant qu'ingénieur de données pour contrôler l'accès à vos objets. Cloud Storage n'est pas votre seul choix en matière de stockage de données dans un data lake sur Google Cloud, nous examinerons donc le stockage de différents types de données. Enfin, nous examinerons Cloud SQL, le choix par défaut pour les charges de travail OLTP (traitement en ligne des transactions) sur Google Cloud. Vous réaliserez également un laboratoire pratique où vous pratiquerez la création d'un data lake pour vos données relationnelles avec Cloud SQL.
 
-Introduction auxDatalakes
+## Introduction aux Datalakes
 
 ![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.001.png)
 
@@ -89,7 +89,7 @@ L'idée est que, parce que le schéma est cohérent et partagé entre toutes les
 
 Ainsi, un entrepôt de données a tendance à contenir des données structurées et semi-structurées qui sont organisées et placées dans un format qui facilite les requêtes et l'analyse.
 
-Options de stockage de données et d'ETL sur Google Cloud
+## Options de stockage de données et d'ETL sur Google Cloud
 
 ![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.008.png)
 
@@ -116,7 +116,7 @@ La méthode que vous utilisez pour charger les données dans le cloud dépend de
 
 ![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.010.png)
 
-EL
+### EL
 
 Le cas le plus simple pourrait être que vous ayez des données dans un format directement utilisable par le produit cloud dans lequel vous souhaitez les stocker.
 
@@ -124,13 +124,13 @@ Prenons par exemple le cas où vous avez vos données au format Avro et que vous
 
 L'une des fonctionnalités qui rendent BigQuery unique est que, comme vous l'avez vu précédemment avec l'exemple de requête fédérée, vous pouvez même ne pas charger les données dans BigQuery et toujours effectuer des requêtes dessus. Les fichiers Avro, ORC et Parquet sont tous désormais pris en charge pour les requêtes fédérées.
 
-ELT
+### ELT
 
 Le T dans E-L-T signifie "TRANSFORM" (TRANSFORMATION).
 
 C'est lorsque les données chargées dans le produit cloud ne sont pas dans le format final souhaité. Vous souhaiterez peut-être les nettoyer ou les transformer de manière à corriger les données, par exemple. En d'autres termes, vous extrayez les données de votre système local, les chargez dans le produit cloud, puis effectuez la transformation. Cela s'appelle extraction, chargement et transformation, ou E-L-T. Vous avez tendance à faire cela lorsque la quantité de transformation nécessaire n'est pas très élevée et que la transformation ne réduit pas considérablement la quantité de données que vous avez. L'E-L-T permet de charger les données brutes directement dans la cible et de les transformer là-bas. Par exemple, dans BigQuery, vous pouvez utiliser SQL pour transformer les données et écrire une nouvelle table.
 
-ETL
+### ETL
 
 La troisième option est l'extraction, la transformation et le chargement, ou E-T-L. C'est le cas lorsque vous souhaitez extraire les données, leur appliquer plusieurs traitements, puis les charger dans le produit cloud.
 
@@ -138,7 +138,7 @@ C'est généralement ce que vous choisissez lorsque cette transformation est ess
 
 L'E-T-L est un processus d'intégration de données dans lequel la transformation a lieu dans un service intermédiaire avant d'être chargée dans la cible. Par exemple, les données peuvent être transformées dans un pipeline de données tel que Dataflow avant d'être chargées dans BigQuery.
 
-Créez un Data Lake en utilisant le stockage Cloud.
+## Créez un Data Lake en utilisant le stockage Cloud.
 
 Google Cloud Storage est le service de stockage essentiel pour travailler avec des données, notamment des données non structurées, dans le cloud. Plongeons plus en profondeur pour comprendre pourquoi Google Cloud Storage est un choix populaire pour servir de lac de données.
 
@@ -167,27 +167,28 @@ Les deux principales entités dans Cloud Storage sont les buckets et les objets.
 
 Vous pouvez avoir différents besoins de stockage pour une multitude de cas d'utilisation. Cloud Storage propose différentes classes pour répondre à ces besoins, basées sur la fréquence d'accès aux données.
 
-Stockage standard
+### Stockage standard
 
 - Le stockage standard est idéal pour les données auxquelles on accède fréquemment (également appelées données "chaudes") et/ou stockées pendant de courtes périodes.
 - Lorsqu'il est utilisé dans une région, la co-localisation de vos ressources maximise les performances pour les calculs intensifs en données et peut réduire les frais de réseau.
 - Lorsqu'il est utilisé dans une région double, vous obtenez toujours des performances optimisées lors de l'accès aux produits Google Cloud situés dans l'une des régions associées, mais vous bénéficiez également d'une disponibilité améliorée grâce au stockage des données dans des emplacements géographiquement distincts.
 - Lorsqu'il est utilisé dans une multi-région, le stockage standard convient pour stocker des données qui sont consultées dans le monde entier, telles que la diffusion de contenu de site web, la diffusion de vidéos, l'exécution de charges de travail interactives ou la fourniture de données pour des applications mobiles et de jeux.
 
-Stockage Nearline
+### Stockage Nearline
 
 - Le stockage Nearline est un service de stockage peu coûteux et hautement durable pour les données consultées rarement.
 - Le stockage Nearline est un meilleur choix que le stockage standard dans les scénarios où une disponibilité légèrement plus faible, une durée de stockage minimale de 30 jours et des coûts d'accès aux données sont des compromis acceptables pour des coûts de stockage au repos réduits.
 - Le stockage Nearline est idéal pour les données que vous prévoyez de lire ou de modifier en moyenne une fois par mois ou moins.
 - Le stockage Nearline convient pour les sauvegardes de données, le contenu multimédia peu utilisé et l'archivage de données.
 
-Stockage Coldline
+### Stockage Coldline
 
 - Le stockage Coldline est un service de stockage très peu coûteux et hautement durable pour les données consultées rarement.
 - Le stockage Coldline est un meilleur choix que le stockage standard ou le stockage Nearline dans les scénarios où une disponibilité légèrement plus faible, une durée de stockage minimale de 90 jours et des coûts plus élevés pour l'accès aux données sont des compromis acceptables pour des coûts de stockage au repos réduits.
 - Le stockage Coldline est idéal pour les données que vous prévoyez de lire ou de modifier au maximum une fois par trimestre.
 
-Stockage Archive
+### Stockage Archive
+
 
 - Le stockage Archive est le service de stockage le moins coûteux et hautement durable pour l'archivage de données, les sauvegardes en ligne et la reprise après sinistre.
 - Le stockage Archive a des coûts plus élevés pour l'accès aux données et les opérations, ainsi qu'une durée de stockage minimale de 365 jours.
@@ -230,7 +231,8 @@ Cloud Storage dispose de nombreuses fonctionnalités de gestion des objets. Par 
 
 Vous pouvez également utiliser la versioning, de sorte que plusieurs versions d'un objet soient suivies et disponibles si nécessaire. Vous pouvez même configurer la gestion du cycle de vie pour déplacer automatiquement les objets qui n'ont pas été consultés depuis 30 jours vers Nearline, puis après 90 jours vers Coldline.
 
-Stockage sécurisé dans le cloud
+## Stockage sécurisé dans le cloud
+
 
 ![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.016.png)
 
@@ -246,7 +248,8 @@ Vous pouvez également accorder de telles autorisations à des comptes de servic
 
 Toutes les données dans Google Cloud sont chiffrées au repos et en transit. Il n'est pas possible de désactiver ce chiffrement.
 
-GMEK
+### GMEK
+
 
 Le chiffrement est effectué par Google en utilisant des clés de chiffrement que nous gérons - les clés de chiffrement gérées par Google ou G-MEK.
 
@@ -258,7 +261,8 @@ CMEK
 
 Si vous souhaitez gérer vous-même la K-E-K, vous le pouvez. Au lieu que Google gère la clé de chiffrement, vous pouvez contrôler la création et l'existence de la K-E-K utilisée. Cela s'appelle les clés de chiffrement gérées par le client ou C-MEK.
 
-CSEK
+### CSEK
+
 
 Vous pouvez éviter complètement Cloud KMS et fournir votre propre mécanisme de chiffrement et de rotation. Cela s'appelle les clés de chiffrement fournies par le client ou C-SEK.
 
@@ -283,7 +287,7 @@ Cloud Storage prend en charge toute une série de cas d'utilisation spéciaux. P
 
 Il y a beaucoup de fonctionnalités utiles dans Cloud Storage, mais nous devons passer à autre chose !
 
-Stocker tous types de données
+## Stocker tous types de données
 
 ![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.019.png)
 
@@ -349,7 +353,7 @@ Cependant, si vous avez besoin d'insertions à haut débit, de plusieurs million
 
 Mis à part cela, vous utiliseriez BigQuery car il est plus rentable en termes de coûts.
 
-Cloud SQL en tant que Data Lake relationnel
+## Cloud SQL en tant que Data Lake relationnel
 
 ![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.027.png)
 

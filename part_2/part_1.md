@@ -1,6 +1,6 @@
-﻿Le Big Data et l'apprentissage automatique sur Google Cloud
+﻿# Le Big Data et l'apprentissage automatique sur Google Cloud
 
-Calcul
+## Calcul
 
 ![](Aspose.Words.c7571923-aa0d-4db4-98c4-cf60ee4c69d5.001.jpeg)
 
@@ -166,7 +166,7 @@ mêmes résultats.
 
 Les Cloud TPU ont été intégrés à tous les produits Google, et ce matériel de pointe et cette technologie de supercalcul sont disponibles avec les produits et services Google Cloud.
 
-Stockage
+# Stockage
 
 ![](Aspose.Words.c7571923-aa0d-4db4-98c4-cf60ee4c69d5.019.jpeg)
 
@@ -338,7 +338,7 @@ Cloud Bigtable fournit également une solution NoSQL évolutive pour les charges
 
 Il est idéal pour les applications en temps réel à haut débit qui ne nécessitent qu'une latence d'une milliseconde.
 
-L'histoire des produits Big Data et ML
+## L'histoire des produits Big Data et ML
 
 ![](Aspose.Words.c7571923-aa0d-4db4-98c4-cf60ee4c69d5.031.png)
 
@@ -460,7 +460,7 @@ via Google Cloud, et vous obtiendrez une pratique pratique avec certains d'entre
 
 cours.
 
-Catégories de produits Big Data et ML
+## Catégories de produits Big Data et ML
 
 ![](Aspose.Words.c7571923-aa0d-4db4-98c4-cf60ee4c69d5.035.jpeg)
 

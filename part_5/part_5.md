@@ -1,6 +1,6 @@
-﻿Fonctionnalités et performances avancées de BigQuery
+﻿# Fonctionnalités et performances avancées de BigQuery
 
-Les fonctions de fenêtre analytiques
+## Les fonctions de fenêtre analytiques
 
 ![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.001.png)
 
@@ -56,7 +56,7 @@ L'addition de classement et de numérotation existe pour des cas d'utilisation s
 
 Les clauses WITH sont des instances d'une sous-requête nommée dans BigQuery. Les clauses WITH sont un moyen simple d'isoler les opérations SQL et de rendre les requêtes complexes plus faciles à gérer.
 
-Fonctions SIG (Système d'Information Géographique)
+## Fonctions SIG (Système d'Information Géographique)
 
 BigQuery dispose de nombreuses fonctionnalités intégrées de Système d'Information Géographique (SIG ou GIS en anglais). Vous en apprendrez davantage sur certaines d'entre elles dans cette leçon.
 
@@ -100,7 +100,7 @@ Cette image montre des villes qui se trouvent toutes à une distance linéaire d
 
 Les fonctions ST\_Intersects, ST\_Contains et ST\_CoveredBy permettent de signaler la superposition ou la co-localisation d'objets géospatiaux.
 
-Considérations de performance
+## Considérations de performance
 
 ![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.019.png)
 

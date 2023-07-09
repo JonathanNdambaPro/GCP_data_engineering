@@ -1,4 +1,4 @@
-﻿Compréhension de la certification Professional Data Engineer
+﻿# Compréhension de la certification Professional Data Engineer
 
 La chose principale que vous devez savoir sur la certification de professionnel en ingénierie des données est que ce n'est pas un test théorique. La certification a été conçue pour confirmer les compétences requises d'un praticien, plus précisément pour tester si vous savez comment faire le travail d'un ingénieur des données. Elle ne teste pas seulement si vous connaissez beaucoup d'informations générales, elle pose des questions pour voir si vous pouvez penser comme un ingénieur des données et résoudre des problèmes comme un ingénieur des données.
 

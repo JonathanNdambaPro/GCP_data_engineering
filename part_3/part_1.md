@@ -1,4 +1,4 @@
-﻿Introduction à l'Ingénierie des Données sur GCP
+﻿# Introduction à l'Ingénierie des Données sur GCP
 
 Un ingénieur des données est quelqu'un qui construit des pipelines de données, nous commencerons donc par examiner ce que cela signifie - quels types de pipelines un ingénieur des données construit et leur objectif. Nous examinerons les défis associés à la pratique de l'ingénierie des données et comment beaucoup de ces défis sont plus faciles à résoudre lorsque vous construisez vos pipelines de données dans le cloud.
 
@@ -16,7 +16,7 @@ Nous aborderons également la mise en production de l'ensemble de l'opération, 
 
 Enfin, nous examinerons une étude de cas sur la façon dont un client de Google Cloud a résolu un problème commercial spécifique, avant de passer à un laboratoire pratique où vous utiliserez BigQuery pour analyser des données.
 
-Le rôle d'un ingénieur de données
+## Le rôle d'un ingénieur de données
 
 ![](Aspose.Words.0cb03f27-89c9-44eb-957f-9a25dcbaf91f.001.png)
 
@@ -73,7 +73,7 @@ Mais que se passe-t-il si les pipelines par lots ne suffisent pas ? Et si vous a
 
 Nous aborderons les pipelines en continu plus tard dans ce cours.
 
-Défis en ingénierie des données sur GCP
+## Défis en ingénierie des données sur GCP
 
 ![](Aspose.Words.0cb03f27-89c9-44eb-957f-9a25dcbaf91f.007.png)
 
@@ -141,7 +141,7 @@ Si vous gérez un cluster d'analyse de données sur site, vous serez responsable
 
 N'y a-t-il pas un moyen plus efficace de gérer la charge des serveurs afin que nous puissions nous concentrer sur les insights ?
 
-Introduction à BigQuery
+## Introduction à BigQuery
 
 Il existe une bien meilleure façon de gérer la charge des serveurs afin que nous puissions nous concentrer sur les informations essentielles. Il s'agit d'utiliser un entrepôt de données sans serveur. BigQuery est l'entrepôt de données sans serveur à l'échelle du pétaoctet de Google Cloud. Vous n'avez pas besoin de gérer des clusters. Concentrez-vous simplement sur les informations essentielles.
 
@@ -175,7 +175,7 @@ Les ressources de stockage sont allouées au fur et à mesure que vous les conso
 
 Les ressources d'interrogation sont allouées en fonction du type et de la complexité de l'interrogation. Chaque requête utilise un certain nombre de slots, qui sont des unités de calcul comprenant une certaine quantité de CPU et de RAM.
 
-Data Lakes et Data Warehouses
+## Data Lakes et Data Warehouses
 
 ![](Aspose.Words.0cb03f27-89c9-44eb-957f-9a25dcbaf91f.021.png)
 
@@ -217,7 +217,7 @@ BigQuery simplifie également les opérations sur les données grâce à l'utili
 
 Bien que nous ayons parlé de l'importation des données dans BigQuery en exécutant des pipelines ETL, il existe une autre option. Il s'agit de traiter BigQuery comme un moteur de requête et de lui permettre d'interroger les données sur place. Par exemple, vous pouvez utiliser BigQuery pour interroger directement les données de la base de données dans Cloud SQL - c'est-à-dire les bases de données relationnelles gérées telles que PostgreSQL et MySQL. Vous pouvez également utiliser BigQuery pour interroger directement des fichiers sur Cloud Storage tant que ces fichiers sont au format CSV ou Parquet. Le véritable avantage réside dans le fait que vous pouvez laisser vos données en place et les joindre à d'autres données dans l'entrepôt de données. Regardons cela de plus près.
 
-Bases de données transactionnelles versus entrepôts de données.
+## Bases de données transactionnelles versus entrepôts de données.
 
 Les ingénieurs de données peuvent être responsables à la fois des systèmes de bases de données transactionnelles en arrière-plan qui soutiennent les applications de votre entreprise ET des entrepôts de données qui soutiennent les charges de travail analytiques. Dans cette leçon, vous explorerez les différences entre les bases de données et les entrepôts de données, ainsi que les solutions Google Cloud pour chaque charge de travail.
 
@@ -263,7 +263,7 @@ Once in the data lake, the data often needs to be processed via transformations 
 
 Alors, qui travaille dans ces équipes et comment collaborent-elles avec notre équipe d'ingénierie des données dans le contexte de GCP ?
 
-Collaborer efficacement avec d'autres équipes de données
+## Collaborer efficacement avec d'autres équipes de données
 
 ![](Aspose.Words.0cb03f27-89c9-44eb-957f-9a25dcbaf91f.030.png)
 
@@ -328,7 +328,7 @@ Ou bien : "Nous constatons une demande élevée pour certains ensembles de donn�
 
 <https://cloud.google.com/bigquery/docs/monitoring>
 
-Gérer l'accès aux données et la gouvernance
+## Gérer l'accès aux données et la gouvernance
 
 Dans le cadre de votre rôle en tant que partenaire efficace, votre équipe d'ingénierie sera chargée de mettre en place des politiques d'accès aux données et une gouvernance générale sur la manière dont les données doivent être utilisées et NE doivent PAS être utilisées par vos utilisateurs.
 
@@ -352,7 +352,7 @@ Une solution pour la gouvernance des données dans le contexte de GCP est le Clo
 - Pourquoi est-ce utile ? Si vous disposez de nombreux ensembles de données différents avec de nombreuses tables différentes auxquelles différents utilisateurs ont différents niveaux d'accès, le Data Catalog offre une expérience utilisateur unifiée pour découvrir rapidement ces ensembles de données. Fini la recherche de noms de table spécifiques en SQL au préalable.
 - Souvent utilisée conjointement avec le Data Catalog, l'API Data Loss Prevention (DLP) ou DLP API, vous aide à mieux comprendre et gérer les données sensibles. Elle offre une classification et une suppression rapides et évolutives pour les éléments de données sensibles tels que les numéros de carte de crédit, les noms, les numéros de sécurité sociale, les numéros d'identification américains et internationaux sélectionnés, les numéros de téléphone et les identifiants de Google Cloud.
 
-Créer des pipelines prêts pour la production.
+## Créer des pipelines prêts pour la production.
 
 Une fois que vos data lakes et vos entrepôts de données sont mis en place et que votre politique de gouvernance est en place, il est temps de rendre l'ensemble de l'opération opérationnel et d'automatiser et de surveiller autant que possible.
 
