@@ -6,7 +6,9 @@
 
 Une question très courante qui est posée est : Quelle est la différence entre l'Intelligence Artificielle (IA), l'Apprentissage Automatique (Machine Learning - ML) et l'Apprentissage Profond (Deep Learning) ? Eh bien, une façon de le comprendre est que l'IA est une discipline, un peu comme la physique. L'IA fait référence à des machines capables d'agir de manière autonome, des machines qui pensent. L'IA concerne la théorie et les méthodes permettant de construire des machines capables de résoudre des problèmes en pensant et agissant comme des humains.
 
-![](Aspose.Words.02f61423-d22a-4128-9fe5-b30dfcf24f0e.002.png)Vous avez probablement beaucoup entendu parler de l'apprentissage automatique ou du ML. Commençons par une définition.
+![](Aspose.Words.02f61423-d22a-4128-9fe5-b30dfcf24f0e.002.png)
+
+Vous avez probablement beaucoup entendu parler de l'apprentissage automatique ou du ML. Commençons par une définition.
 
 Qu'est-ce que le ML ?
 
@@ -19,7 +21,9 @@ Maintenant, cet analyste d'affaires fait une prévision, mais est-ce scalable ? 
 
 C'est là que les ordinateurs interviennent. Pour rendre les décisions basées sur des informations prédictives reproductibles, vous avez besoin du ML. Vous avez besoin d'un programme informatique pour dériver ces informations pour vous. Ainsi, le ML consiste à obtenir des informations prédictives à partir des données, et cela pour de nombreuses données à la fois. Il s'agit de mettre l'échelle sur la BI et la prise de décision.
 
-![](Aspose.Words.02f61423-d22a-4128-9fe5-b30dfcf24f0e.003.png)Le Machine Learning est un ensemble d'outils comme les lois de la mécanique de Newton. Tout comme vous pouvez utiliser les lois de Newton pour déterminer combien de temps il faudra à une balle pour tomber lorsqu'elle tombe d'une falaise, vous pouvez utiliser le Machine Learning pour résoudre de manière évolutive certains types de problèmes en utilisant des exemples de données. Mais sans avoir besoin de code personnalisé.
+![](Aspose.Words.02f61423-d22a-4128-9fe5-b30dfcf24f0e.003.png)
+
+Le Machine Learning est un ensemble d'outils comme les lois de la mécanique de Newton. Tout comme vous pouvez utiliser les lois de Newton pour déterminer combien de temps il faudra à une balle pour tomber lorsqu'elle tombe d'une falaise, vous pouvez utiliser le Machine Learning pour résoudre de manière évolutive certains types de problèmes en utilisant des exemples de données. Mais sans avoir besoin de code personnalisé.
 
 Le Deep Learning est un type de Machine Learning qui fonctionne même lorsque les données sont non structurées, comme les images, la parole, la vidéo, le texte en langage naturel, et ainsi de suite.
 

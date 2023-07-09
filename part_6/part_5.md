@@ -39,7 +39,9 @@ Jetons un coup d'œil à la syntaxe nécessaire pour créer un modèle. Vous ave
 
 [https://towardsdatascience.com/choosing-between-tensorflow-keras-bigquery-ml-and-automl -natural-language-for-text-classification-6b1c9fc21013](https://towardsdatascience.com/choosing-between-tensorflow-keras-bigquery-ml-and-automl-natural-language-for-text-classification-6b1c9fc21013)
 
-![](Aspose.Words.7ed1f3e1-9f26-473e-b8ba-995fcb6110ac.008.png)Pour obtenir les métriques, il vous suffit d'appeler ML.EVALUATE sur votre modèle entraîné ou de cliquer sur le modèle dans l'interface BigQuery et de cliquer sur l'onglet "Évaluation". Concernant les métriques, elles sont évaluées sur une échelle de 0 à 1. En général, plus la valeur se rapproche de 1, mieux c'est, mais cela dépend vraiment de votre métrique.
+![](Aspose.Words.7ed1f3e1-9f26-473e-b8ba-995fcb6110ac.008.png)
+
+Pour obtenir les métriques, il vous suffit d'appeler ML.EVALUATE sur votre modèle entraîné ou de cliquer sur le modèle dans l'interface BigQuery et de cliquer sur l'onglet "Évaluation". Concernant les métriques, elles sont évaluées sur une échelle de 0 à 1. En général, plus la valeur se rapproche de 1, mieux c'est, mais cela dépend vraiment de votre métrique.
 
 La précision représente la précision de vos prédictions pour les articles sur lesquels vous avez fait des suppositions. Une précision élevée signifie un faible taux de faux positifs, ce qui pénalise vraiment la précision du modèle s'il fait beaucoup de mauvaises suppositions. D'autre part, le rappel (recall) est le ratio d'observations positives correctement prédites sur l'ensemble des observations de la classe réelle. Combien en avez-vous correctement prédit parmi les vrais positifs et les faux négatifs ?
 
@@ -65,7 +67,9 @@ Tout d'abord, vous avez un autre exemple de classification linéaire, ou ce qu'o
 
 Dans cet exemple, vous utilisez un ensemble de données sur les arrivées de vols pour prédire si un vol sera à l'heure ou non - un résultat binaire. Pour la régression logistique, vous devez simplement spécifier le type de modèle et l'étiquette que vous essayez de prédire. Pour les utilisateurs plus avancés, il existe d'autres options, comme si vous souhaitez que votre modèle utilise une régularisation.
 
-![](Aspose.Words.7ed1f3e1-9f26-473e-b8ba-995fcb6110ac.011.png)Bien que les modèles de régression logistique soient le couteau suisse de l'apprentissage automatique, les réseaux neuronaux profonds, ou DNN, vous permettent de modéliser plus efficacement les relations non linéaires dans vos données.
+![](Aspose.Words.7ed1f3e1-9f26-473e-b8ba-995fcb6110ac.011.png)
+
+Bien que les modèles de régression logistique soient le couteau suisse de l'apprentissage automatique, les réseaux neuronaux profonds, ou DNN, vous permettent de modéliser plus efficacement les relations non linéaires dans vos données.
 
 Un exemple de relation non linéaire se trouve dans la dépréciation des voitures. Une voiture perd une grande partie de sa valeur au cours des premières années, après quoi sa valeur se stabilise plus ou moins. Nous n'entrerons pas dans les détails des réseaux neuronaux profonds dans ce cours, mais sachez que vous pouvez les utiliser dans BigQuery ML. Il vous suffit de spécifier DNN comme type de modèle dans l'instruction CREATE OR REPLACE MODEL.
 

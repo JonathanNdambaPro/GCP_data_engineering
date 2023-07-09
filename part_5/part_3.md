@@ -21,13 +21,17 @@ Quels sont certains des défis liés au traitement des données en continu ?
 - Le troisième défi concerne le modèle utilisé, qu'il s'agisse de flux continu ou de lots répétés.
 - Un autre défi concerne la synchronisation ou la latence des données. Par exemple, que se passe-t-il si le réseau présente un retard ou si un capteur tombe en panne et que les messages ne peuvent pas être envoyés ?
 
-![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.004.png)De plus, il y a un défi lié à toute forme d'agrégation que vous pourriez essayer de réaliser. Par exemple, si vous essayez de calculer la moyenne des données, mais que celles-ci sont dans un scénario de flux continu. Vous ne pouvez pas simplement insérer les valeurs dans la formule pour obtenir une moyenne, la somme de 1 à n, car n est un nombre en constante augmentation.
+![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.004.png)
+
+De plus, il y a un défi lié à toute forme d'agrégation que vous pourriez essayer de réaliser. Par exemple, si vous essayez de calculer la moyenne des données, mais que celles-ci sont dans un scénario de flux continu. Vous ne pouvez pas simplement insérer les valeurs dans la formule pour obtenir une moyenne, la somme de 1 à n, car n est un nombre en constante augmentation.
 
 ![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.005.png)
 
 Dans un scénario de streaming, vous devez diviser le temps en fenêtres et nous pouvons obtenir la moyenne dans une fenêtre donnée. Cela peut être pénible si vous avez déjà dû écrire un système comme celui-ci. Vous pouvez imaginer que cela peut être difficile de maintenir la segmentation en fenêtres, les threads de défilement du temps, etc. La bonne nouvelle est que Dataflow va le faire automatiquement pour vous. Dans Dataflow, lorsque vous lisez des messages de Pub/Sub, chaque message aura un horodatage qui est l'horodatage du message Pub/Sub, puis vous pourrez utiliser cet horodatage pour placer les données dans les différentes fenêtres temporelles et agréger toutes ces fenêtres.
 
-![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.006.png)L'ordre des messages est important et il peut y avoir une latence entre le moment où un capteur est lu et le moment où le message est envoyé. Vous devrez peut-être modifier les horodatages si cette latence est importante.
+![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.006.png)
+
+L'ordre des messages est important et il peut y avoir une latence entre le moment où un capteur est lu et le moment où le message est envoyé. Vous devrez peut-être modifier les horodatages si cette latence est importante.
 
 ![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.007.png)
 
@@ -67,7 +71,9 @@ Dans le deuxième exemple, avec une fenêtre temporelle glissante, nous utilison
 
 Enfin, nous avons l'exemple d'une fenêtre de session. Nous utilisons windows.Sessions avec un argument de 10 multiplié par 60 pour définir une fenêtre de session avec un délai d'expiration de dix minutes, c'est-à-dire 600 secondes.
 
-![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.013.png)Comment fonctionne la fenêtrage ? Tout étant égal, voici comment le fenêtrage devrait fonctionner. S'il n'y avait pas de latence, si nous vivions dans un monde idéal, si tout était instantané, alors ces fenêtres temporelles fixes se videraient simplement à la fermeture de la fenêtre. Au tout dernier microseconde où il devient 8:05:00, une fenêtre de cinq minutes se termine et vide toutes les données. Cela se produit uniquement S'IL n'y a pas de latence.
+![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.013.png)
+
+Comment fonctionne la fenêtrage ? Tout étant égal, voici comment le fenêtrage devrait fonctionner. S'il n'y avait pas de latence, si nous vivions dans un monde idéal, si tout était instantané, alors ces fenêtres temporelles fixes se videraient simplement à la fermeture de la fenêtre. Au tout dernier microseconde où il devient 8:05:00, une fenêtre de cinq minutes se termine et vide toutes les données. Cela se produit uniquement S'IL n'y a pas de latence.
 
 ![](Aspose.Words.50778bac-9367-4acf-b91b-0e6505e2ae86.014.png)
 

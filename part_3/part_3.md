@@ -216,7 +216,9 @@ Dans les deux cas, le service de requête place les résultats dans une table te
 
 Il est également possible de demander au job de requête d'écrire dans une table de destination. Dans ce cas, vous pouvez contrôler quand la table est supprimée. Étant donné que la table de destination est permanente et non temporaire, vous serez facturé pour le stockage des résultats.
 
-![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.028.png)Pour calculer les tarifs, vous pouvez utiliser le validateur de requêtes de BigQuery en combinaison avec le calculateur de tarifs pour obtenir des estimations.
+![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.028.png)
+
+Pour calculer les tarifs, vous pouvez utiliser le validateur de requêtes de BigQuery en combinaison avec le calculateur de tarifs pour obtenir des estimations.
 
 Le validateur de requêtes fournit une estimation de la taille des données qui seront traitées lors d'une requête. Vous pouvez utiliser cette estimation dans le calculateur pour obtenir une estimation du coût de l'exécution de la requête.
 
@@ -304,7 +306,9 @@ Le transfert des données n'est que la première étape de la construction d'un 
 
 Utilisez le service de transfert de données pour importer de manière répétée, périodique et planifiée des données directement depuis des systèmes en tant que service (SaaS) vers des tables dans BigQuery. Le service de transfert de données de BigQuery fournit des connecteurs, des modèles de transformation et la planification. Les connecteurs établissent des communications sécurisées avec le service source et collectent des données standard, des exports et des rapports. Ces informations sont ensuite transformées au sein de BigQuery. Les transformations peuvent être assez complexes, ce qui entraîne la création de 25 à 60 tables. De plus, le transfert peut être programmé pour se répéter aussi fréquemment qu'une fois par jour.
 
-![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.039.png)Le service BigQuery Data Transfer peut également être utilisé pour déplacer efficacement des données entre des régions.
+![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.039.png)
+
+Le service BigQuery Data Transfer peut également être utilisé pour déplacer efficacement des données entre des régions.
 
 ![](Aspose.Words.5529591a-df34-4ff9-8fab-40a4fdf63547.040.png)
 

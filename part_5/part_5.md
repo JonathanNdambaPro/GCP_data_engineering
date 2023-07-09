@@ -60,7 +60,9 @@ Les clauses WITH sont des instances d'une sous-requête nommée dans BigQuery. L
 
 BigQuery dispose de nombreuses fonctionnalités intégrées de Système d'Information Géographique (SIG ou GIS en anglais). Vous en apprendrez davantage sur certaines d'entre elles dans cette leçon.
 
-![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.011.png)Dans l'exemple donné, un code postal est utilisé pour déterminer combien de stations de vélo se trouvent à moins d'un kilomètre du code postal et ont au moins 30 vélos disponibles. ST\_GeogPoint et ST\_DWithin sont utilisés ensemble pour localiser précisément les stations d'intérêt.
+![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.011.png)
+
+Dans l'exemple donné, un code postal est utilisé pour déterminer combien de stations de vélo se trouvent à moins d'un kilomètre du code postal et ont au moins 30 vélos disponibles. ST\_GeogPoint et ST\_DWithin sont utilisés ensemble pour localiser précisément les stations d'intérêt.
 
 ST signifie simplement "type spatial".
 
@@ -174,7 +176,9 @@ Bien que davantage de métadonnées doivent être conservées, en veillant à ce
 
 Une bonne pratique consiste à exiger que les requêtes incluent toujours le filtre de partition. Assurez-vous que le champ de partition est isolé du côté gauche car c'est la seule façon pour BigQuery de rapidement éliminer les partitions inutiles.
 
-![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.026.png)Le clustering peut améliorer les performances de certains types de requêtes, telles que les requêtes utilisant des clauses de filtrage et celles agrégeant des données. Lorsque des données sont écrites dans une table clusterisée par une requête ou un job de chargement, BigQuery trie les données en utilisant les valeurs des colonnes de clustering. Ces valeurs sont utilisées pour organiser les données en plusieurs blocs dans le stockage de BigQuery. Lorsque vous soumettez une requête contenant une clause qui filtre les données en fonction des colonnes de clustering, BigQuery utilise les blocs triés pour éliminer les analyses de données inutiles.
+![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.026.png)
+
+Le clustering peut améliorer les performances de certains types de requêtes, telles que les requêtes utilisant des clauses de filtrage et celles agrégeant des données. Lorsque des données sont écrites dans une table clusterisée par une requête ou un job de chargement, BigQuery trie les données en utilisant les valeurs des colonnes de clustering. Ces valeurs sont utilisées pour organiser les données en plusieurs blocs dans le stockage de BigQuery. Lorsque vous soumettez une requête contenant une clause qui filtre les données en fonction des colonnes de clustering, BigQuery utilise les blocs triés pour éliminer les analyses de données inutiles.
 
 De même, lorsque vous soumettez une requête qui agrège des données en fonction des valeurs des colonnes de clustering, les performances sont améliorées car les blocs triés regroupent les lignes ayant des valeurs similaires.
 
@@ -316,7 +320,9 @@ Il y a plusieurs considérations pour la tarification à forfait :
 
 BigQuery ne prend pas en charge la priorisation fine des requêtes interactives ou par lots. Afin d'éviter l'accumulation de tâches BigQuery et d'assurer une exécution dans les délais, il est crucial d'estimer correctement l'allocation des emplacements BigQuery. Actuellement, BigQuery interrompt toute requête qui dépasse 6 heures d'exécution.
 
-![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.043.png)Si une requête s'exécute dans BigQuery, elle a accès à la totalité des slots disponibles pour le projet ou la réservation, par défaut 2000.
+![](Aspose.Words.c0ddfc05-2164-4a0b-95e3-b2b6873ae9c5.043.png)
+
+Si une requête s'exécute dans BigQuery, elle a accès à la totalité des slots disponibles pour le projet ou la réservation, par défaut 2000.
 
 Si nous exécutons soudainement une deuxième requête, BigQuery répartira les slots entre les 2 requêtes, en attribuant à chacune la moitié du nombre total de slots disponibles, dans ce cas 1000 chacune.
 

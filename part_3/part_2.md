@@ -142,7 +142,9 @@ L'E-T-L est un processus d'intégration de données dans lequel la transformatio
 
 Google Cloud Storage est le service de stockage essentiel pour travailler avec des données, notamment des données non structurées, dans le cloud. Plongeons plus en profondeur pour comprendre pourquoi Google Cloud Storage est un choix populaire pour servir de lac de données.
 
-![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.011.png)Les données stockées dans Cloud Storage persistent au-delà de la durée de vie des machines virtuelles ou des clusters (c'est-à-dire qu'elles sont persistantes). Elles sont également relativement peu coûteuses par rapport au coût de calcul. Par conséquent, par exemple, il peut être avantageux de mettre en cache les résultats des calculs précédents dans Cloud Storage. Si vous n'avez pas besoin qu'une application s'exécute en permanence, il peut être utile de sauvegarder l'état de votre application dans Cloud Storage et d'éteindre la machine sur laquelle elle s'exécute lorsque vous n'en avez pas besoin.
+![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.011.png)
+
+Les données stockées dans Cloud Storage persistent au-delà de la durée de vie des machines virtuelles ou des clusters (c'est-à-dire qu'elles sont persistantes). Elles sont également relativement peu coûteuses par rapport au coût de calcul. Par conséquent, par exemple, il peut être avantageux de mettre en cache les résultats des calculs précédents dans Cloud Storage. Si vous n'avez pas besoin qu'une application s'exécute en permanence, il peut être utile de sauvegarder l'état de votre application dans Cloud Storage et d'éteindre la machine sur laquelle elle s'exécute lorsque vous n'en avez pas besoin.
 
 Cloud Storage est un service de stockage d'objets, il stocke simplement des objets binaires sans se soucier des données contenues dans ces objets. Cependant, dans une certaine mesure, il offre également une compatibilité avec les systèmes de fichiers et permet de faire en sorte que les objets ressemblent à des fichiers et fonctionnent comme tels, vous pouvez donc copier des fichiers dedans et en sortir.
 
@@ -154,7 +156,9 @@ Cloud Storage est un service de stockage d'objets, il stocke simplement des obje
 
 En tant qu'ingénieur de données, il est important de comprendre comment Cloud Storage parvient à concilier ces qualités apparemment contradictoires, ainsi que quand et comment les utiliser dans vos solutions.
 
-![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.012.png)Beaucoup des propriétés incroyables de Cloud Storage sont liées au fait qu'il s'agit d'un magasin d'objets. D'autres fonctionnalités sont construites sur cette base.
+![](Aspose.Words.a31beb3f-fb98-45c7-be4a-3b0e8a4b1f30.012.png)
+
+Beaucoup des propriétés incroyables de Cloud Storage sont liées au fait qu'il s'agit d'un magasin d'objets. D'autres fonctionnalités sont construites sur cette base.
 
 Les deux principales entités dans Cloud Storage sont les buckets et les objets. Les buckets sont des conteneurs pour les objets. Les objets existent à l'intérieur des buckets et non à part. Ainsi, les buckets sont des conteneurs pour les données.
 

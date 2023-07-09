@@ -54,7 +54,9 @@ Nous savons qu'en général, dans un contexte d'entreprise, une société finit 
 
 En tant qu'entreprise, une question importante et prédominante est la manière de traiter les données non structurées, qui représentent généralement près de 90% des données d'une entreprise. Les données non structurées ont un énorme potentiel pour fournir des informations détaillées qui peuvent bénéficier à l'entreprise. Dans cette section, nous verrons quelles technologies d'IA peuvent être utilisées pour traiter ces données non structurées et avoir un impact sur l'entreprise.
 
-![](Aspose.Words.da23e318-859f-4c72-91fa-57fbf4443580.008.png)Dans ce module, nous allons nous concentrer sur l'API Cloud Natural Language pour le traitement de données non structurées sous forme de texte. Cependant, gardez à l'esprit qu'il existe des API équivalentes pour les données d'image, de vidéo et d'audio. Encore une fois, lorsque nous disons que nous "enrichissons" des données non structurées, nous voulons dire que nous leur appliquons des étiquettes. Nous fournissons des étiquettes pour des questions telles que : "Quel est le sujet de cet e-mail ?" et "Ce commentaire a-t-il un sentiment positif ou négatif ?"
+![](Aspose.Words.da23e318-859f-4c72-91fa-57fbf4443580.008.png)
+
+Dans ce module, nous allons nous concentrer sur l'API Cloud Natural Language pour le traitement de données non structurées sous forme de texte. Cependant, gardez à l'esprit qu'il existe des API équivalentes pour les données d'image, de vidéo et d'audio. Encore une fois, lorsque nous disons que nous "enrichissons" des données non structurées, nous voulons dire que nous leur appliquons des étiquettes. Nous fournissons des étiquettes pour des questions telles que : "Quel est le sujet de cet e-mail ?" et "Ce commentaire a-t-il un sentiment positif ou négatif ?"
 
 ![](Aspose.Words.da23e318-859f-4c72-91fa-57fbf4443580.009.png)
 

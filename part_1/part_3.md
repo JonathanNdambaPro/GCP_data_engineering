@@ -24,7 +24,9 @@ Dans l'exemple de droite, toutes les données sont stockées dans un seul enregi
 
 Dans l'exemple du bas, une relation est définie par deux tables. Cela pourrait faciliter la gestion et la génération de rapports sur la liste des emplacements.
 
-![](Aspose.Words.e79873e8-3438-4e0d-ab81-7a553aabca8b.003.png)ACID vs BASE est une connaissance essentielle des données que vous voudrez connaître très bien afin de pouvoir déterminer facilement si une solution de données particulière est compatible avec les exigences identifiées dans le cas. Par exemple, pour une transaction financière, un service qui ne fournit qu'une cohérence éventuelle pourrait être incompatible.
+![](Aspose.Words.e79873e8-3438-4e0d-ab81-7a553aabca8b.003.png)
+
+ACID vs BASE est une connaissance essentielle des données que vous voudrez connaître très bien afin de pouvoir déterminer facilement si une solution de données particulière est compatible avec les exigences identifiées dans le cas. Par exemple, pour une transaction financière, un service qui ne fournit qu'une cohérence éventuelle pourrait être incompatible.
 
 ![](Aspose.Words.e79873e8-3438-4e0d-ab81-7a553aabca8b.004.png)
 
@@ -88,7 +90,9 @@ Les ressources Dataflow sont déployées à la demande, par travail, et le trava
 
 Dataflow résout de nombreux problèmes liés au traitement en continu, y compris les variations de taille (pics) et la croissance au fil du temps. Il peut se mettre à l'échelle tout en restant tolérant aux pannes. De plus, il dispose d'un modèle de programmation flexible et de méthodes pour travailler avec des données arrivant tardivement ou désordonnées.
 
-![](Aspose.Words.e79873e8-3438-4e0d-ab81-7a553aabca8b.014.png)Tout le traitement des données est en retard ou est retardé simplement en raison de la latence dans la livraison du message d'événement.
+![](Aspose.Words.e79873e8-3438-4e0d-ab81-7a553aabca8b.014.png)
+
+Tout le traitement des données est en retard ou est retardé simplement en raison de la latence dans la livraison du message d'événement.
 
 La fenêtrage est trop compliqué à expliquer ici. Je veux simplement souligner que vous pourriez avoir besoin de le connaître, alors assurez-vous de le comprendre.
 

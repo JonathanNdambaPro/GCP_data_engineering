@@ -28,7 +28,9 @@ Pub/Sub est un service conforme à la norme HIPAA, offrant des contrôles d'acc�
 
 Vous pouvez contrôler les caractéristiques de votre solution Pub/Sub en fonction du nombre de producteurs, du nombre de souscripteurs, de la taille et du nombre de messages. Ces facteurs offrent un compromis entre l'évolutivité, la latence réduite et le débit élevé.
 
-![](Aspose.Words.faac24b9-2ef7-44fa-8bcc-5c53c0f9a1d5.002.png)Comment fonctionne Pub/Sub ? Le modèle est très simple. L'histoire de Pub/Sub est l'histoire de deux structures de données, le "Topic" (sujet) et la "Subscription" (abonnement). Le "Topic" et la "Subscription" sont des abstractions qui existent indépendamment de tout travailleur, abonné, etc., dans le framework Pub/Sub. Le client Pub/Sub qui crée le "Topic" est appelé le "Publisher" (éditeur). Et le client Pub/Sub qui crée la "Subscription" est appelé le "Subscriber" (abonné).
+![](Aspose.Words.faac24b9-2ef7-44fa-8bcc-5c53c0f9a1d5.002.png)
+
+Comment fonctionne Pub/Sub ? Le modèle est très simple. L'histoire de Pub/Sub est l'histoire de deux structures de données, le "Topic" (sujet) et la "Subscription" (abonnement). Le "Topic" et la "Subscription" sont des abstractions qui existent indépendamment de tout travailleur, abonné, etc., dans le framework Pub/Sub. Le client Pub/Sub qui crée le "Topic" est appelé le "Publisher" (éditeur). Et le client Pub/Sub qui crée la "Subscription" est appelé le "Subscriber" (abonné).
 
 Dans cet exemple, la "Subscription" est abonnée au "Topic".
 
@@ -120,7 +122,9 @@ Il existe également un mécanisme de relecture qui vous permet de revenir en ar
 
 Vous pouvez également définir le délai d'accusé de réception par abonnement. Ainsi, si vous savez qu'en moyenne il vous faut 15 secondes pour traiter un message dans votre file de travail, vous pouvez définir votre délai d'accusé de réception à 20 secondes. Cela garantira qu'il n'essaie pas de redistribuer les messages.
 
-![](Aspose.Words.faac24b9-2ef7-44fa-8bcc-5c53c0f9a1d5.015.png)La configuration d'un sujet avec une rétention de messages vous offre plus de flexibilité, permettant à toute souscription attachée au sujet de remonter dans le temps et de rejouer des messages déjà confirmés. La rétention des messages du sujet permet également à une souscription de rejouer des messages publiés avant la création de cette souscription. Des instantanés sont utilisés pour rendre la relecture extrêmement efficace.
+![](Aspose.Words.faac24b9-2ef7-44fa-8bcc-5c53c0f9a1d5.015.png)
+
+La configuration d'un sujet avec une rétention de messages vous offre plus de flexibilité, permettant à toute souscription attachée au sujet de remonter dans le temps et de rejouer des messages déjà confirmés. La rétention des messages du sujet permet également à une souscription de rejouer des messages publiés avant la création de cette souscription. Des instantanés sont utilisés pour rendre la relecture extrêmement efficace.
 
 Si la rétention des messages du sujet est activée, les coûts de stockage des messages conservés par le sujet seront facturés au projet du sujet.
 

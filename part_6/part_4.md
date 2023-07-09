@@ -56,7 +56,9 @@ La prochaine solution était AI Platform Pipelines, un service optimisé pour GK
 
 Avec Vertex Pipelines, la gestion des ressources est déplacée loin des utilisateurs, ce qui réduit les désagréments quotidiens liés à la gestion des fichiers de configuration. Par exemple, il n'est plus nécessaire de créer un cluster Kubernetes dédié à l'aide de GKE pour exécuter vos pipelines. Au lieu de cela, Vertex AI gère les clusters Kubernetes et les pods qui s'exécutent dessus en arrière-plan.
 
-![](Aspose.Words.72c13ac8-4bdc-4073-815d-b8fc286c2804.007.png)Les pipelines peuvent être facilement développés en utilisant des kits de développement logiciel Python flexibles. Cela permet une itération rapide et des cycles de développement vers le déploiement plus rapides en exploitant probablement les compétences présentes dans votre organisation.
+![](Aspose.Words.72c13ac8-4bdc-4073-815d-b8fc286c2804.007.png)
+
+Les pipelines peuvent être facilement développés en utilisant des kits de développement logiciel Python flexibles. Cela permet une itération rapide et des cycles de développement vers le déploiement plus rapides en exploitant probablement les compétences présentes dans votre organisation.
 
 ![](Aspose.Words.72c13ac8-4bdc-4073-815d-b8fc286c2804.008.png)
 

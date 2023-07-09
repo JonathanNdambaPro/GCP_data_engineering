@@ -163,7 +163,9 @@ Lorsque vous êtes satisfait de vos transformations, vous pouvez créer un pipel
 
 La prochaine grande tâche pour la gestion des pipelines de données est d'orchestrer le travail à travers plusieurs services de Google Cloud. Par exemple, si vous disposez de trois pipelines Cloud Data Fusion et de deux modèles d'apprentissage automatique que vous souhaitez exécuter dans un certain ordre, vous avez besoin d'un moteur d'orchestration. Dans ce module, nous examinerons l'utilisation de Cloud Composer pour vous aider dans des tâches de ce genre.
 
-![](Aspose.Words.0efdaf06-10aa-4981-92e1-1568730c0497.029.png)Cloud Composer contrôlera les services Google Cloud dont nous avons besoin pour fonctionner. Cependant, Cloud Composer est simplement un environnement sans serveur sur lequel s'exécute un outil de flux de travail open source.
+![](Aspose.Words.0efdaf06-10aa-4981-92e1-1568730c0497.029.png)
+
+Cloud Composer contrôlera les services Google Cloud dont nous avons besoin pour fonctionner. Cependant, Cloud Composer est simplement un environnement sans serveur sur lequel s'exécute un outil de flux de travail open source.
 
 ![](Aspose.Words.0efdaf06-10aa-4981-92e1-1568730c0497.030.png)
 
@@ -285,7 +287,9 @@ Maintenant que vous êtes familiarisé avec les environnements Cloud Composer et
 
 Comme nous l'avons mentionné précédemment, il existe deux façons différentes d'exécuter votre workflow sans avoir à cliquer manuellement sur "Exécuter le DAG". La première et la plus courante est une planification fixe ou périodique d'un workflow, par exemple une fois par jour à 6 heures du matin ou chaque semaine le samedi. La deuxième façon est basée sur des déclencheurs, par exemple si vous souhaitez exécuter votre workflow chaque fois que de nouveaux fichiers de données CSV sont chargés dans un compartiment de stockage Cloud Storage, ou si de nouvelles données sont reçues depuis un sujet Pub/Sub auquel vous êtes abonné.
 
-![](Aspose.Words.0efdaf06-10aa-4981-92e1-1568730c0497.055.png)Ensuite, accédez à l'onglet DAGs pour afficher les flux de travail existants pour lesquels vous disposez de fichiers DAG Python. Ici, nous avons deux DAG. Le dernier, composer\_sample\_simple\_greeting, a une planification quotidienne mais...
+![](Aspose.Words.0efdaf06-10aa-4981-92e1-1568730c0497.055.png)
+
+Ensuite, accédez à l'onglet DAGs pour afficher les flux de travail existants pour lesquels vous disposez de fichiers DAG Python. Ici, nous avons deux DAG. Le dernier, composer\_sample\_simple\_greeting, a une planification quotidienne mais...
 
 ![](Aspose.Words.0efdaf06-10aa-4981-92e1-1568730c0497.056.png)
 

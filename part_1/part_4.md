@@ -50,7 +50,9 @@ Les notebooks sont un environnement de développement autonome et sont souvent u
 
 Il existe plusieurs frameworks de notebook populaires utilisés aujourd'hui, notamment Colab et Datalab.
 
-![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.006.png)Parlons de l'analyse des données lorsque les données sont non structurées ou ne sont pas organisées de manière appropriée à votre objectif.
+![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.006.png)
+
+Parlons de l'analyse des données lorsque les données sont non structurées ou ne sont pas organisées de manière appropriée à votre objectif.
 
 Si vous pouvez utiliser un modèle ML pré-entraîné, il peut rapidement transformer ces données en quelque chose d'utile.
 
@@ -100,7 +102,9 @@ Sur Google Cloud, nous pouvons utiliser :
 
 Même les données qui ont un schéma peuvent encore être non structurées si elles ne sont pas utiles à votre objectif spécifique. Voici un exemple. Imaginez que vous vendiez des produits en ligne. Après la livraison du produit, un e-mail est envoyé demandant un retour d'expérience. En examinant les premiers douze ou e-mails, vous commencez à regretter de ne pas avoir envoyé une sorte de sondage. En effet, compiler les résultats du texte de chaque e-mail va être impossible. Dans le but d'identifier les bonnes pratiques et les mauvaises pratiques, les données textuelles des e-mails sont non structurées. Cependant, vous pourriez utiliser l'analyse de sentiment pour étiqueter les e-mails et les regrouper. Laissez l'apprentissage automatique lire pour vous et trier les e-mails en groupes représentatifs. Maintenant, vous pouvez examiner les e-mails les plus positifs et les plus négatifs pour identifier les comportements à encourager ou à éviter. Le processus d'apprentissage automatique a transformé les données non structurées en données structurées pour vos besoins.
 
-![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.011.png)Distinguer entre les problèmes ponctuels (de raisonnement) qui sont mieux résolus par des humains et les problèmes de Big Data qui peuvent être résolus en traitant une grande quantité de données, ainsi que les problèmes d'apprentissage automatique qui sont mieux résolus en utilisant la modélisation.
+![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.011.png)
+
+Distinguer entre les problèmes ponctuels (de raisonnement) qui sont mieux résolus par des humains et les problèmes de Big Data qui peuvent être résolus en traitant une grande quantité de données, ainsi que les problèmes d'apprentissage automatique qui sont mieux résolus en utilisant la modélisation.
 
 On m'a déjà demandé si un modèle d'apprentissage automatique pouvait distinguer les images à l'envers des images à l'endroit. Pourrais-tu entraîner un modèle à le faire ? Je suppose que oui. Mais la plupart des appareils photo modernes ajoutent des métadonnées dans l'en-tête de l'image concernant l'orientation de l'appareil photo au moment où l'image a été prise. Ces données sont précises et facilement accessibles. Ainsi, dans ce cas, il serait préférable de lire les métadonnées plutôt que d'entraîner un modèle d'apprentissage automatique.
 
@@ -200,7 +204,9 @@ Voici un exemple. Imaginez que vous prédisiez une condition dangereuse dans une
 
 La logique peut être inversée. Si vous prédisiez qu'une pièce était sûre, le faux positif serait qu'elle est en réalité dangereuse. Vous devez donc réfléchir à ce type de problème logique pour comprendre quelle décision commerciale, procédure ou action doit être prise en conséquence du modèle ML.
 
-![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.024.png)Vous devrez peut-être prévoir d'expliquer votre raisonnement et votre conception. Dans cet exemple, une matrice de confusion est utilisée pour rendre les choix d'ingénierie des données compréhensibles pour les utilisateurs métier.
+![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.024.png)
+
+Vous devrez peut-être prévoir d'expliquer votre raisonnement et votre conception. Dans cet exemple, une matrice de confusion est utilisée pour rendre les choix d'ingénierie des données compréhensibles pour les utilisateurs métier.
 
 Votre conseil pour l'examen est le suivant : Utilisez une matrice de confusion pour décrire les performances des modèles de classification.
 
@@ -254,7 +260,9 @@ Page 10 du formulaire 990 de l'IRS répertorie 24 types de dépenses différents
 
 Que se passe-t-il si j'ai besoin d'ajouter un autre type de dépense ? Dois-je modifier le schéma et fournir des valeurs NULL historiquement ? Ah...
 
-![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.033.png)Si nous ajoutons chaque champ de dépense en tant que nouvelle colonne, la table devient très large. Et le traitement de cette table large n'est pas scalable (évolutif).
+![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.033.png)
+
+Si nous ajoutons chaque champ de dépense en tant que nouvelle colonne, la table devient très large. Et le traitement de cette table large n'est pas scalable (évolutif).
 
 ![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.034.png)
 
@@ -284,7 +292,9 @@ Conseil pour votre examen : connaître et comprendre la normalisation et la dén
 
 BigQuery peut utiliser des schémas imbriqués pour des requêtes hautement évolutives. Dans l'exemple présenté, le champ "company" possède plusieurs transactions (imbriquées).
 
-![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.039.png)Voici quelques éléments à prendre en compte lorsque l'on pense à l'efficacité. La vitesse de traitement, le coût et l'efficacité sont liés.
+![](Aspose.Words.d9e0735c-1fbf-47e1-a45f-7f7fbbeab371.039.png)
+
+Voici quelques éléments à prendre en compte lorsque l'on pense à l'efficacité. La vitesse de traitement, le coût et l'efficacité sont liés.
 
 Je soulignerais simplement que le mélange des données d'une étape à une autre dans le but de regroupement peut être une source d'inefficacité qui n'est pas aussi facile à voir ou à détecter que des entrées ou sorties lentes.
 

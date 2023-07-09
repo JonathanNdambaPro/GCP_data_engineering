@@ -138,7 +138,9 @@ Si vous stockez les données dans une base de données, il est plus facile de tr
 
 Et si vous stockez les données dans un système de traitement, il est plus facile et plus rapide de transformer les données, pas seulement de les récupérer.
 
-![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.022.png)L'ingénieur Data doit être familier avec les concepts de base et la terminologie de la représentation des données.
+![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.022.png)
+
+L'ingénieur Data doit être familier avec les concepts de base et la terminologie de la représentation des données.
 
 Par exemple, si un problème est décrit en utilisant les termes "rangées" et "colonnes", puisque ces concepts sont utilisés dans SQL, vous pourriez déjà penser à une base de données SQL telle que Cloud SQL ou Cloud Spanner.
 
@@ -162,7 +164,9 @@ Le réseau transmet des données sérielles sous forme d'un flux de bits - des z
 
 Avro est un framework de sérialisation de données et d'appels de procédures à distance développé au sein du projet Hadoop d'Apache. Il utilise JSON pour définir les types de données et les protocoles, et sérialise les données dans un format binaire compact. Son utilisation principale se trouve dans Apache Hadoop, où il peut fournir à la fois un format de sérialisation pour les données persistantes et un format de communication entre les nœuds Hadoop, ainsi qu'entre les programmes clients et les services Hadoop.
 
-![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.025.png)Il est utile de comprendre les types de données pris en charge dans différents systèmes de représentation. Par exemple, il existe un type de données dans SQL moderne appelé NUMERIC. NUMERIC est similaire au point flottant. Cependant, il permet de stocker une valeur de 38 chiffres avec 9 chiffres pour représenter l'emplacement de la virgule décimale. NUMERIC est très utile pour stocker les fractions courantes associées à l'argent. NUMERIC évite l'erreur d'arrondi qui se produit dans une représentation en point flottant complète, c'est pourquoi il est principalement utilisé pour les transactions financières.
+![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.025.png)
+
+Il est utile de comprendre les types de données pris en charge dans différents systèmes de représentation. Par exemple, il existe un type de données dans SQL moderne appelé NUMERIC. NUMERIC est similaire au point flottant. Cependant, il permet de stocker une valeur de 38 chiffres avec 9 chiffres pour représenter l'emplacement de la virgule décimale. NUMERIC est très utile pour stocker les fractions courantes associées à l'argent. NUMERIC évite l'erreur d'arrondi qui se produit dans une représentation en point flottant complète, c'est pourquoi il est principalement utilisé pour les transactions financières.
 
 Maintenant, pourquoi ai-je mentionné le type de données NUMERIC ? Parce que pour comprendre NUMERIC, vous devez déjà connaître la différence entre les nombres entiers et les nombres à virgule flottante, et vous devez déjà connaître les erreurs d'arrondi qui peuvent se produire lors de l'exécution de calculs sur certains types de représentations de données à virgule flottante. Donc, si vous comprenez cela, vous comprenez déjà beaucoup des autres éléments que vous devez connaître pour SQL et l'ingénierie des données.
 
@@ -296,7 +300,9 @@ Voici un conseil sur la modification du cluster Dataproc. Si vous avez besoin de
 
 Si vous migrez Hadoop d'un centre de données vers Dataproc, vous avez peut-être déjà des paramètres Hadoop personnalisés que vous souhaitez appliquer au cluster. Vous voudrez peut-être personnaliser certaines configurations du cluster afin qu'elles fonctionnent de manière similaire. Cela est pris en charge de manière limitée par les propriétés du cluster. La sécurité dans Dataproc est contrôlée par l'accès au cluster en tant que ressource.
 
-![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.039.png)Voici quelques informations que vous devriez connaître à propos de Dataflow. Vous pouvez écrire du code de pipeline en Java ou en Python. Vous pouvez utiliser l'API open source Apache Beam pour définir le pipeline et le soumettre à Dataflow. Ensuite, Dataflow fournit le framework d'exécution. Les tâches parallèles sont automatiquement mises à l'échelle par le framework. Et le même code permet à la fois le traitement en continu en temps réel et le traitement par lots. Un avantage important de Dataflow est que vous pouvez obtenir des données en entrée à partir de nombreuses sources et écrire les résultats dans de nombreuses destinations, mais le code du pipeline reste le même. Dataflow prend en charge les entrées secondaires, où vous pouvez prendre des données, les transformer d'une manière, puis les transformer d'une autre manière en parallèle, de sorte que les deux puissent être utilisées ensemble dans le même pipeline. La sécurité de Dataflow est basée sur l'attribution de rôles qui limitent l'accès aux ressources de Dataflow. Ainsi, votre conseil pour l'examen est le suivant : "Pour les utilisateurs de Dataflow, utilisez des rôles pour limiter l'accès uniquement aux ressources de Dataflow, et pas seulement au projet."
+![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.039.png)
+
+Voici quelques informations que vous devriez connaître à propos de Dataflow. Vous pouvez écrire du code de pipeline en Java ou en Python. Vous pouvez utiliser l'API open source Apache Beam pour définir le pipeline et le soumettre à Dataflow. Ensuite, Dataflow fournit le framework d'exécution. Les tâches parallèles sont automatiquement mises à l'échelle par le framework. Et le même code permet à la fois le traitement en continu en temps réel et le traitement par lots. Un avantage important de Dataflow est que vous pouvez obtenir des données en entrée à partir de nombreuses sources et écrire les résultats dans de nombreuses destinations, mais le code du pipeline reste le même. Dataflow prend en charge les entrées secondaires, où vous pouvez prendre des données, les transformer d'une manière, puis les transformer d'une autre manière en parallèle, de sorte que les deux puissent être utilisées ensemble dans le même pipeline. La sécurité de Dataflow est basée sur l'attribution de rôles qui limitent l'accès aux ressources de Dataflow. Ainsi, votre conseil pour l'examen est le suivant : "Pour les utilisateurs de Dataflow, utilisez des rôles pour limiter l'accès uniquement aux ressources de Dataflow, et pas seulement au projet."
 
 ![](Aspose.Words.26c0f64e-6eda-41da-9774-5d9b364446b8.040.png)
 

@@ -100,7 +100,9 @@ De même, si vous effectuez un GROUP BY et qu'un groupe contient plus d'une lign
 
 Une autre raison pour laquelle vous pourriez rencontrer des problèmes de cohérence est si des caractères supplémentaires ont été ajoutés aux champs. Par exemple, vous pouvez obtenir des horodatages, dont certains peuvent inclure un fuseau horaire. Ou vous avez des chaînes de caractères qui sont remplies. Utilisez des fonctions de chaîne pour nettoyer de telles données avant de les transmettre.
 
-![](Aspose.Words.f139ae72-8cf8-4a58-b8dd-ecc56355c941.008.png)Pour assurer l'exactitude, testez les données par rapport aux valeurs connues. Par exemple, si vous avez une commande, vous pouvez calculer le sous-total à partir de la quantité commandée et du prix de l'article, et vous assurer que les calculs sont précis. De même, vous pouvez vérifier si une valeur qui est insérée appartient à une liste canonique de valeurs acceptables. Vous pouvez le faire avec une instruction SQL IN.
+![](Aspose.Words.f139ae72-8cf8-4a58-b8dd-ecc56355c941.008.png)
+
+Pour assurer l'exactitude, testez les données par rapport aux valeurs connues. Par exemple, si vous avez une commande, vous pouvez calculer le sous-total à partir de la quantité commandée et du prix de l'article, et vous assurer que les calculs sont précis. De même, vous pouvez vérifier si une valeur qui est insérée appartient à une liste canonique de valeurs acceptables. Vous pouvez le faire avec une instruction SQL IN.
 
 ![](Aspose.Words.f139ae72-8cf8-4a58-b8dd-ecc56355c941.009.png)
 
