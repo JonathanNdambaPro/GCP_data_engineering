@@ -4,7 +4,7 @@
     - ## [Conception de systèmes de traitement de données](part_1/part_2.md)
     - ## [Construction et opérationnalisation de systèmes de traitement des données](part_1/part_3.md)
     - ## [Opérationnalisation des modèles d'apprentissage automatique](part_1/part_4.md)
-    - ## [Compréhension de la certification Professional Data Engineer](part_1/part_5.md)
+    - ## [Sécurité, Politique et Fiabilité](part_1/part_5.md)
 - ## [Fondamentaux de Google Cloud pour le Big Data et l'apprentissage automatique](part_2/part_1.md)
     - ## [Le Big Data et l'apprentissage automatique sur Google Cloud](part_2/part_1.md)
     - ## [Ingénierie des données pour les données en continu](part_2/part_2.md)
